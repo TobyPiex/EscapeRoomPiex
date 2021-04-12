@@ -9,23 +9,39 @@ public class LockPuzzle : MonoBehaviour, ILock
 {
     public KeyLockPuzzle thisPuzzle { get; set; }
     public GameObject puzzleKey { get; set; }
+    public PointerEventData eData { get; set; }
+    public Outline thisOutline { get; set; }
 
     private void Awake() 
     {
         this.gameObject.SetActive(true);
+        thisOutline = this.GetComponent<Outline>();
+        thisOutline.enabled = false;
     }
     
     public void OnGvrPointerHover(PointerEventData eventData)
     {
+        
+        thisOutline.enabled = true;
+        eData = eventData;
+
         if(puzzleKey.GetComponent<Key>().IsHeld
-            && GvrControllerInput.GetDevice(GvrControllerHand.Dominant).GetButtonDown(GvrControllerButton.TouchPadButton))
+        && GvrControllerInput.GetDevice(GvrControllerHand.Dominant).GetButtonDown(GvrControllerButton.TouchPadButton))
         {
-            Debug.Assert(thisPuzzle != null, "Warning: This Lock isn't used in any Puzzle. Create a new Key-Lock Puzzle in Bolt, and add this Lock to the `_lock` parameter.");
             //Puzzle Solved.
 
             thisPuzzle.Solve();
             Debug.Log("Puzzle Solved.");
             this.gameObject.SetActive(false);
+        }
+    }
+
+    private void Update() 
+    {
+        if(eData != null
+        && !eData.hovered.Contains(this.gameObject))
+        {
+            thisOutline.enabled = false;
         }
     }
 }

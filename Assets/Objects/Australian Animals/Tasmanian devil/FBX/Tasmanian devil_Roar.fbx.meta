@@ -1,0 +1,2723 @@
+fileFormatVersion: 2
+guid: 6152a6b837fba1c43a7006be220d38ca
+timeCreated: 1470570467
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: tasmanian
+    100004: Tasmanian_Devil_ZR5G
+    100006: tasmanian_Head_JawCtrl
+    100008: tasmanian_Head_JawCtrlGrp
+    100010: tasmanian_Head_JawEndJnt
+    100012: tasmanian_Head_JawEndSHJnt
+    100014: tasmanian_Head_JawJnt
+    100016: tasmanian_Head_JawSHJnt
+    100018: tasmanian_Head_MasterCtrl
+    100020: tasmanian_Head_MasterCtrlGrp
+    100022: tasmanian_Head_MasterCtrlScaleGrp
+    100024: tasmanian_Head_ScaleGrp
+    100026: tasmanian_Head_TopJnt
+    100028: tasmanian_Head_TopSHJnt
+    100030: tasmanian_HeadGrp
+    100032: tasmanian_l_Clavicle_01_01Jnt
+    100034: tasmanian_l_Clavicle_01_01JntFK
+    100036: tasmanian_l_Clavicle_01_01JntIK
+    100038: tasmanian_l_Clavicle_01_01SHJnt
+    100040: tasmanian_l_Clavicle_01JntFKGrp
+    100042: tasmanian_l_Clavicle_01JntFKGrp2
+    100044: tasmanian_l_Clavicle_01JntGrp
+    100046: tasmanian_l_Clavicle_01JntGrp2
+    100048: tasmanian_l_Clavicle_01JntIKGrp
+    100050: tasmanian_l_Clavicle_01JntIKGrp2
+    100052: tasmanian_l_Clavicle_ScaleGrp
+    100054: tasmanian_l_ClavicleGrp
+    100056: tasmanian_l_Eye_01Ctrl
+    100058: tasmanian_l_Eye_01Grp1
+    100060: tasmanian_l_Eye_01Grp2
+    100062: tasmanian_l_Eye_01Jnt
+    100064: tasmanian_l_Eye_01SHJnt
+    100066: tasmanian_l_Eye_ScaleGrp
+    100068: tasmanian_l_EyeGrp
+    100070: tasmanian_l_Finger_A_01_01Jnt
+    100072: tasmanian_l_Finger_A_01_01JntFK
+    100074: tasmanian_l_Finger_A_01_01JntIK
+    100076: tasmanian_l_Finger_A_01_01SHJnt
+    100078: tasmanian_l_Finger_A_01JntFKGrp
+    100080: tasmanian_l_Finger_A_01JntFKGrp2
+    100082: tasmanian_l_Finger_A_01JntGrp
+    100084: tasmanian_l_Finger_A_01JntGrp2
+    100086: tasmanian_l_Finger_A_01JntIKGrp
+    100088: tasmanian_l_Finger_A_01JntIKGrp2
+    100090: tasmanian_l_Finger_A_02_01Jnt
+    100092: tasmanian_l_Finger_A_02_01JntFK
+    100094: tasmanian_l_Finger_A_02_01JntIK
+    100096: tasmanian_l_Finger_A_02_01SHJnt
+    100098: tasmanian_l_Finger_A_02JntFKGrp
+    100100: tasmanian_l_Finger_A_02JntFKGrp2
+    100102: tasmanian_l_Finger_A_02JntGrp
+    100104: tasmanian_l_Finger_A_02JntGrp2
+    100106: tasmanian_l_Finger_A_02JntIKGrp
+    100108: tasmanian_l_Finger_A_02JntIKGrp2
+    100110: tasmanian_l_Finger_A_03_01Jnt
+    100112: tasmanian_l_Finger_A_03_01JntFK
+    100114: tasmanian_l_Finger_A_03_01JntIK
+    100116: tasmanian_l_Finger_A_03_01SHJnt
+    100118: tasmanian_l_Finger_A_03JntFKGrp
+    100120: tasmanian_l_Finger_A_03JntFKGrp2
+    100122: tasmanian_l_Finger_A_03JntGrp
+    100124: tasmanian_l_Finger_A_03JntGrp2
+    100126: tasmanian_l_Finger_A_03JntIKGrp
+    100128: tasmanian_l_Finger_A_03JntIKGrp2
+    100130: tasmanian_l_Finger_A_04_01Jnt
+    100132: tasmanian_l_Finger_A_04_01JntFK
+    100134: tasmanian_l_Finger_A_04_01JntIK
+    100136: tasmanian_l_Finger_A_04_01SHJnt
+    100138: tasmanian_l_Finger_A_04JntFKGrp
+    100140: tasmanian_l_Finger_A_04JntFKGrp2
+    100142: tasmanian_l_Finger_A_04JntGrp
+    100144: tasmanian_l_Finger_A_04JntGrp2
+    100146: tasmanian_l_Finger_A_04JntIKGrp
+    100148: tasmanian_l_Finger_A_04JntIKGrp2
+    100150: tasmanian_l_Finger_A_05_01Jnt
+    100152: tasmanian_l_Finger_A_05_01JntFK
+    100154: tasmanian_l_Finger_A_05_01JntIK
+    100156: tasmanian_l_Finger_A_05_01SHJnt
+    100158: tasmanian_l_Finger_A_05JntFKGrp
+    100160: tasmanian_l_Finger_A_05JntFKGrp2
+    100162: tasmanian_l_Finger_A_05JntGrp
+    100164: tasmanian_l_Finger_A_05JntGrp2
+    100166: tasmanian_l_Finger_A_05JntIKGrp
+    100168: tasmanian_l_Finger_A_05JntIKGrp2
+    100170: tasmanian_l_Finger_A_ScaleGrp
+    100172: tasmanian_l_Finger_AGrp
+    100174: tasmanian_l_Finger_B_01_01Jnt
+    100176: tasmanian_l_Finger_B_01_01JntFK
+    100178: tasmanian_l_Finger_B_01_01JntIK
+    100180: tasmanian_l_Finger_B_01_01SHJnt
+    100182: tasmanian_l_Finger_B_01JntFKGrp
+    100184: tasmanian_l_Finger_B_01JntFKGrp2
+    100186: tasmanian_l_Finger_B_01JntGrp
+    100188: tasmanian_l_Finger_B_01JntGrp2
+    100190: tasmanian_l_Finger_B_01JntIKGrp
+    100192: tasmanian_l_Finger_B_01JntIKGrp2
+    100194: tasmanian_l_Finger_B_02_01Jnt
+    100196: tasmanian_l_Finger_B_02_01JntFK
+    100198: tasmanian_l_Finger_B_02_01JntIK
+    100200: tasmanian_l_Finger_B_02_01SHJnt
+    100202: tasmanian_l_Finger_B_02JntFKGrp
+    100204: tasmanian_l_Finger_B_02JntFKGrp2
+    100206: tasmanian_l_Finger_B_02JntGrp
+    100208: tasmanian_l_Finger_B_02JntGrp2
+    100210: tasmanian_l_Finger_B_02JntIKGrp
+    100212: tasmanian_l_Finger_B_02JntIKGrp2
+    100214: tasmanian_l_Finger_B_03_01Jnt
+    100216: tasmanian_l_Finger_B_03_01JntFK
+    100218: tasmanian_l_Finger_B_03_01JntIK
+    100220: tasmanian_l_Finger_B_03_01SHJnt
+    100222: tasmanian_l_Finger_B_03JntFKGrp
+    100224: tasmanian_l_Finger_B_03JntFKGrp2
+    100226: tasmanian_l_Finger_B_03JntGrp
+    100228: tasmanian_l_Finger_B_03JntGrp2
+    100230: tasmanian_l_Finger_B_03JntIKGrp
+    100232: tasmanian_l_Finger_B_03JntIKGrp2
+    100234: tasmanian_l_Finger_B_04_01Jnt
+    100236: tasmanian_l_Finger_B_04_01JntFK
+    100238: tasmanian_l_Finger_B_04_01JntIK
+    100240: tasmanian_l_Finger_B_04_01SHJnt
+    100242: tasmanian_l_Finger_B_04JntFKGrp
+    100244: tasmanian_l_Finger_B_04JntFKGrp2
+    100246: tasmanian_l_Finger_B_04JntGrp
+    100248: tasmanian_l_Finger_B_04JntGrp2
+    100250: tasmanian_l_Finger_B_04JntIKGrp
+    100252: tasmanian_l_Finger_B_04JntIKGrp2
+    100254: tasmanian_l_Finger_B_05_01Jnt
+    100256: tasmanian_l_Finger_B_05_01JntFK
+    100258: tasmanian_l_Finger_B_05_01JntIK
+    100260: tasmanian_l_Finger_B_05_01SHJnt
+    100262: tasmanian_l_Finger_B_05JntFKGrp
+    100264: tasmanian_l_Finger_B_05JntFKGrp2
+    100266: tasmanian_l_Finger_B_05JntGrp
+    100268: tasmanian_l_Finger_B_05JntGrp2
+    100270: tasmanian_l_Finger_B_05JntIKGrp
+    100272: tasmanian_l_Finger_B_05JntIKGrp2
+    100274: tasmanian_l_Finger_B_ScaleGrp
+    100276: tasmanian_l_Finger_BGrp
+    100278: tasmanian_l_FrontLeg_AnkleFKCtrl
+    100280: tasmanian_l_FrontLeg_AnkleFKCtrlGrp
+    100282: tasmanian_l_FrontLeg_AnkleIKLockLctr
+    100284: tasmanian_l_FrontLeg_AnkleJnt
+    100286: tasmanian_l_FrontLeg_AnkleJntFK
+    100288: tasmanian_l_FrontLeg_AnkleJntFKGrp1
+    100290: tasmanian_l_FrontLeg_AnkleJntFKGrp2
+    100292: tasmanian_l_FrontLeg_AnkleJntIK
+    100294: tasmanian_l_FrontLeg_AnkleSHJnt
+    100296: tasmanian_l_FrontLeg_BallFKCtrl
+    100298: tasmanian_l_FrontLeg_BallFKCtrlGrp
+    100300: tasmanian_l_FrontLeg_BallJnt
+    100302: tasmanian_l_FrontLeg_BallJntFK
+    100304: tasmanian_l_FrontLeg_BallJntIK
+    100306: tasmanian_l_FrontLeg_BallSHJnt
+    100308: tasmanian_l_FrontLeg_BallSwivelLctr
+    100310: tasmanian_l_FrontLeg_FootBallPivotLctr
+    100312: tasmanian_l_FrontLeg_FootBallPivotLctr2
+    100314: tasmanian_l_FrontLeg_FootIKCtrl
+    100316: tasmanian_l_FrontLeg_FootIKCtrlGrp
+    100318: tasmanian_l_FrontLeg_FootLeftTiltLctr
+    100320: tasmanian_l_FrontLeg_FootRightTiltLctr
+    100322: tasmanian_l_FrontLeg_HeelIKCtrl
+    100324: tasmanian_l_FrontLeg_HeelIKCtrlGrp
+    100326: tasmanian_l_FrontLeg_HeelLctr
+    100328: tasmanian_l_FrontLeg_HipFKCtrl
+    100330: tasmanian_l_FrontLeg_HipFKCtrlGrp
+    100332: tasmanian_l_FrontLeg_HipIKLockLctr
+    100334: tasmanian_l_FrontLeg_HipJnt
+    100336: tasmanian_l_FrontLeg_HipJntFK
+    100338: tasmanian_l_FrontLeg_HipJntIK
+    100340: tasmanian_l_FrontLeg_HipSHJnt
+    100342: tasmanian_l_FrontLeg_KneeFKCtrl
+    100344: tasmanian_l_FrontLeg_KneeFKCtrlGrp
+    100346: tasmanian_l_FrontLeg_KneeIKCtrl
+    100348: tasmanian_l_FrontLeg_KneeIKCtrl_AnkleLctr
+    100350: tasmanian_l_FrontLeg_KneeIKCtrlGrp
+    100352: tasmanian_l_FrontLeg_KneeIKLockLctr
+    100354: tasmanian_l_FrontLeg_KneeJnt
+    100356: tasmanian_l_FrontLeg_KneeJntFK
+    100358: tasmanian_l_FrontLeg_KneeJntFKGrp1
+    100360: tasmanian_l_FrontLeg_KneeJntFKGrp2
+    100362: tasmanian_l_FrontLeg_KneeJntIK
+    100364: tasmanian_l_FrontLeg_KneeSHJnt
+    100366: tasmanian_l_FrontLeg_LegLengthEndLctr
+    100368: tasmanian_l_FrontLeg_LegLengthOriginLctr
+    100370: tasmanian_l_FrontLeg_ScaleGrp
+    100372: tasmanian_l_FrontLeg_SwitchCtrl
+    100374: tasmanian_l_FrontLeg_SwitchCtrlGrp
+    100376: tasmanian_l_FrontLeg_ToeFKCtrl
+    100378: tasmanian_l_FrontLeg_ToeFKCtrlGrp
+    100380: tasmanian_l_FrontLeg_ToeIKCtrl
+    100382: tasmanian_l_FrontLeg_ToeIKCtrlGrp
+    100384: tasmanian_l_FrontLeg_ToeJnt
+    100386: tasmanian_l_FrontLeg_ToeJntFK
+    100388: tasmanian_l_FrontLeg_ToeJntIK
+    100390: tasmanian_l_FrontLeg_ToeSHJnt
+    100392: tasmanian_l_FrontLegGrp
+    100394: tasmanian_l_HindLeg_AnkleFKCtrl
+    100396: tasmanian_l_HindLeg_AnkleFKCtrlGrp
+    100398: tasmanian_l_HindLeg_AnkleIKLockLctr
+    100400: tasmanian_l_HindLeg_AnkleJnt
+    100402: tasmanian_l_HindLeg_AnkleJntFK
+    100404: tasmanian_l_HindLeg_AnkleJntFKGrp1
+    100406: tasmanian_l_HindLeg_AnkleJntFKGrp2
+    100408: tasmanian_l_HindLeg_AnkleJntIK
+    100410: tasmanian_l_HindLeg_AnkleSHJnt
+    100412: tasmanian_l_HindLeg_BallFKCtrl
+    100414: tasmanian_l_HindLeg_BallFKCtrlGrp
+    100416: tasmanian_l_HindLeg_BallJnt
+    100418: tasmanian_l_HindLeg_BallJntFK
+    100420: tasmanian_l_HindLeg_BallJntIK
+    100422: tasmanian_l_HindLeg_BallSHJnt
+    100424: tasmanian_l_HindLeg_BallSwivelLctr
+    100426: tasmanian_l_HindLeg_FootBallPivotLctr
+    100428: tasmanian_l_HindLeg_FootIKCtrl
+    100430: tasmanian_l_HindLeg_FootIKCtrlGrp
+    100432: tasmanian_l_HindLeg_FootLeftTiltLctr
+    100434: tasmanian_l_HindLeg_FootRightTiltLctr
+    100436: tasmanian_l_HindLeg_FullLegLengthAimLctr
+    100438: tasmanian_l_HindLeg_FullLegLengthEndLctr
+    100440: tasmanian_l_HindLeg_HeelIKCtrl
+    100442: tasmanian_l_HindLeg_HeelIKCtrlGrp
+    100444: tasmanian_l_HindLeg_HeelLctr
+    100446: tasmanian_l_HindLeg_HipFKCtrl
+    100448: tasmanian_l_HindLeg_HipFKCtrlGrp
+    100450: tasmanian_l_HindLeg_HipIKLockLctr
+    100452: tasmanian_l_HindLeg_HipJnt
+    100454: tasmanian_l_HindLeg_HipJntFK
+    100456: tasmanian_l_HindLeg_HipJntIK
+    100458: tasmanian_l_HindLeg_HipSHJnt
+    100460: tasmanian_l_HindLeg_Knee1FKCtrl
+    100462: tasmanian_l_HindLeg_Knee1FKCtrlGrp
+    100464: tasmanian_l_HindLeg_Knee1Jnt
+    100466: tasmanian_l_HindLeg_Knee1JntFK
+    100468: tasmanian_l_HindLeg_Knee1JntFKGrp1
+    100470: tasmanian_l_HindLeg_Knee1JntFKGrp2
+    100472: tasmanian_l_HindLeg_Knee1JntIK
+    100474: tasmanian_l_HindLeg_Knee1SHJnt
+    100476: tasmanian_l_HindLeg_Knee2FKCtrl
+    100478: tasmanian_l_HindLeg_Knee2FKCtrlGrp
+    100480: tasmanian_l_HindLeg_Knee2Jnt
+    100482: tasmanian_l_HindLeg_Knee2JntFK
+    100484: tasmanian_l_HindLeg_Knee2JntFKGrp1
+    100486: tasmanian_l_HindLeg_Knee2JntFKGrp2
+    100488: tasmanian_l_HindLeg_Knee2JntIK
+    100490: tasmanian_l_HindLeg_Knee2SHJnt
+    100492: tasmanian_l_HindLeg_KneeIKCtrl
+    100494: tasmanian_l_HindLeg_KneeIKCtrlGrp
+    100496: tasmanian_l_HindLeg_KneeIKLockLctr
+    100498: tasmanian_l_HindLeg_LegLengthEndLctr
+    100500: tasmanian_l_HindLeg_LegLengthOriginLctr
+    100502: tasmanian_l_HindLeg_LowerKneeIKOffsetLctr
+    100504: tasmanian_l_HindLeg_LowerLegIKCLctr
+    100506: tasmanian_l_HindLeg_LowerLegIKCtrl
+    100508: tasmanian_l_HindLeg_LowerLegIKCtrlGrp
+    100510: tasmanian_l_HindLeg_LowerLegIKCtrlGrp2
+    100512: tasmanian_l_HindLeg_LowerLegIKCtrlGrp2_LctrOffset
+    100514: tasmanian_l_HindLeg_LowerLegIKCtrlGrp3
+    100516: tasmanian_l_HindLeg_ScaleGrp
+    100518: tasmanian_l_HindLeg_SwitchCtrl
+    100520: tasmanian_l_HindLeg_SwitchCtrlGrp
+    100522: tasmanian_l_HindLeg_ToeFKCtrl
+    100524: tasmanian_l_HindLeg_ToeFKCtrlGrp
+    100526: tasmanian_l_HindLeg_ToeIKCtrl
+    100528: tasmanian_l_HindLeg_ToeIKCtrlGrp
+    100530: tasmanian_l_HindLeg_ToeJnt
+    100532: tasmanian_l_HindLeg_ToeJntFK
+    100534: tasmanian_l_HindLeg_ToeJntIK
+    100536: tasmanian_l_HindLeg_ToeSHJnt
+    100538: tasmanian_l_HindLegGrp
+    100540: tasmanian_MAINCtrl
+    100542: tasmanian_MAINSHJnt
+    100544: tasmanian_Neck
+    100546: tasmanian_Neck_01CurveCtrl
+    100548: tasmanian_Neck_01CurveCtrlGrp
+    100550: tasmanian_Neck_01Jnt
+    100552: tasmanian_Neck_01SHJnt
+    100554: tasmanian_Neck_02CurveCtrl
+    100556: tasmanian_Neck_02CurveCtrlGrp
+    100558: tasmanian_Neck_02Jnt
+    100560: tasmanian_Neck_02SHJnt
+    100562: tasmanian_Neck_Btm01JntIK
+    100564: tasmanian_Neck_LengthClstr01
+    100566: tasmanian_Neck_LengthClstr02
+    100568: tasmanian_Neck_LengthClstr03
+    100570: tasmanian_Neck_LengthCurve
+    100572: tasmanian_Neck_MidIKCtrl
+    100574: tasmanian_Neck_MidIKCtrlGrp
+    100576: tasmanian_Neck_MidJntIK
+    100578: tasmanian_Neck_ScaleGrp
+    100580: tasmanian_Neck_TopIKCtrl
+    100582: tasmanian_Neck_TopIKCtrlGrp
+    100584: tasmanian_Neck_TopJnt
+    100586: tasmanian_Neck_TopJntIK
+    100588: tasmanian_Neck_TopSHJnt
+    100590: tasmanian_NeckGrp
+    100592: tasmanian_r_Clavicle_01_01Jnt
+    100594: tasmanian_r_Clavicle_01_01JntFK
+    100596: tasmanian_r_Clavicle_01_01JntIK
+    100598: tasmanian_r_Clavicle_01_01SHJnt
+    100600: tasmanian_r_Clavicle_01JntFKGrp
+    100602: tasmanian_r_Clavicle_01JntFKGrp2
+    100604: tasmanian_r_Clavicle_01JntGrp
+    100606: tasmanian_r_Clavicle_01JntGrp2
+    100608: tasmanian_r_Clavicle_01JntIKGrp
+    100610: tasmanian_r_Clavicle_01JntIKGrp2
+    100612: tasmanian_r_Clavicle_ScaleGrp
+    100614: tasmanian_r_ClavicleGrp
+    100616: tasmanian_r_Eye_01Ctrl
+    100618: tasmanian_r_Eye_01Grp1
+    100620: tasmanian_r_Eye_01Grp2
+    100622: tasmanian_r_Eye_01Jnt
+    100624: tasmanian_r_Eye_01SHJnt
+    100626: tasmanian_r_Eye_ScaleGrp
+    100628: tasmanian_r_EyeGrp
+    100630: tasmanian_r_Finger_A_01_01Jnt
+    100632: tasmanian_r_Finger_A_01_01JntFK
+    100634: tasmanian_r_Finger_A_01_01JntIK
+    100636: tasmanian_r_Finger_A_01_01SHJnt
+    100638: tasmanian_r_Finger_A_01JntFKGrp
+    100640: tasmanian_r_Finger_A_01JntFKGrp2
+    100642: tasmanian_r_Finger_A_01JntGrp
+    100644: tasmanian_r_Finger_A_01JntGrp2
+    100646: tasmanian_r_Finger_A_01JntIKGrp
+    100648: tasmanian_r_Finger_A_01JntIKGrp2
+    100650: tasmanian_r_Finger_A_02_01Jnt
+    100652: tasmanian_r_Finger_A_02_01JntFK
+    100654: tasmanian_r_Finger_A_02_01JntIK
+    100656: tasmanian_r_Finger_A_02_01SHJnt
+    100658: tasmanian_r_Finger_A_02JntFKGrp
+    100660: tasmanian_r_Finger_A_02JntFKGrp2
+    100662: tasmanian_r_Finger_A_02JntGrp
+    100664: tasmanian_r_Finger_A_02JntGrp2
+    100666: tasmanian_r_Finger_A_02JntIKGrp
+    100668: tasmanian_r_Finger_A_02JntIKGrp2
+    100670: tasmanian_r_Finger_A_03_01Jnt
+    100672: tasmanian_r_Finger_A_03_01JntFK
+    100674: tasmanian_r_Finger_A_03_01JntIK
+    100676: tasmanian_r_Finger_A_03_01SHJnt
+    100678: tasmanian_r_Finger_A_03JntFKGrp
+    100680: tasmanian_r_Finger_A_03JntFKGrp2
+    100682: tasmanian_r_Finger_A_03JntGrp
+    100684: tasmanian_r_Finger_A_03JntGrp2
+    100686: tasmanian_r_Finger_A_03JntIKGrp
+    100688: tasmanian_r_Finger_A_03JntIKGrp2
+    100690: tasmanian_r_Finger_A_04_01Jnt
+    100692: tasmanian_r_Finger_A_04_01JntFK
+    100694: tasmanian_r_Finger_A_04_01JntIK
+    100696: tasmanian_r_Finger_A_04_01SHJnt
+    100698: tasmanian_r_Finger_A_04JntFKGrp
+    100700: tasmanian_r_Finger_A_04JntFKGrp2
+    100702: tasmanian_r_Finger_A_04JntGrp
+    100704: tasmanian_r_Finger_A_04JntGrp2
+    100706: tasmanian_r_Finger_A_04JntIKGrp
+    100708: tasmanian_r_Finger_A_04JntIKGrp2
+    100710: tasmanian_r_Finger_A_05_01Jnt
+    100712: tasmanian_r_Finger_A_05_01JntFK
+    100714: tasmanian_r_Finger_A_05_01JntIK
+    100716: tasmanian_r_Finger_A_05_01SHJnt
+    100718: tasmanian_r_Finger_A_05JntFKGrp
+    100720: tasmanian_r_Finger_A_05JntFKGrp2
+    100722: tasmanian_r_Finger_A_05JntGrp
+    100724: tasmanian_r_Finger_A_05JntGrp2
+    100726: tasmanian_r_Finger_A_05JntIKGrp
+    100728: tasmanian_r_Finger_A_05JntIKGrp2
+    100730: tasmanian_r_Finger_A_ScaleGrp
+    100732: tasmanian_r_Finger_AGrp
+    100734: tasmanian_r_Finger_B_01_01Jnt
+    100736: tasmanian_r_Finger_B_01_01JntFK
+    100738: tasmanian_r_Finger_B_01_01JntIK
+    100740: tasmanian_r_Finger_B_01_01SHJnt
+    100742: tasmanian_r_Finger_B_01JntFKGrp
+    100744: tasmanian_r_Finger_B_01JntFKGrp2
+    100746: tasmanian_r_Finger_B_01JntGrp
+    100748: tasmanian_r_Finger_B_01JntGrp2
+    100750: tasmanian_r_Finger_B_01JntIKGrp
+    100752: tasmanian_r_Finger_B_01JntIKGrp2
+    100754: tasmanian_r_Finger_B_02_01Jnt
+    100756: tasmanian_r_Finger_B_02_01JntFK
+    100758: tasmanian_r_Finger_B_02_01JntIK
+    100760: tasmanian_r_Finger_B_02_01SHJnt
+    100762: tasmanian_r_Finger_B_02JntFKGrp
+    100764: tasmanian_r_Finger_B_02JntFKGrp2
+    100766: tasmanian_r_Finger_B_02JntGrp
+    100768: tasmanian_r_Finger_B_02JntGrp2
+    100770: tasmanian_r_Finger_B_02JntIKGrp
+    100772: tasmanian_r_Finger_B_02JntIKGrp2
+    100774: tasmanian_r_Finger_B_03_01Jnt
+    100776: tasmanian_r_Finger_B_03_01JntFK
+    100778: tasmanian_r_Finger_B_03_01JntIK
+    100780: tasmanian_r_Finger_B_03_01SHJnt
+    100782: tasmanian_r_Finger_B_03JntFKGrp
+    100784: tasmanian_r_Finger_B_03JntFKGrp2
+    100786: tasmanian_r_Finger_B_03JntGrp
+    100788: tasmanian_r_Finger_B_03JntGrp2
+    100790: tasmanian_r_Finger_B_03JntIKGrp
+    100792: tasmanian_r_Finger_B_03JntIKGrp2
+    100794: tasmanian_r_Finger_B_04_01Jnt
+    100796: tasmanian_r_Finger_B_04_01JntFK
+    100798: tasmanian_r_Finger_B_04_01JntIK
+    100800: tasmanian_r_Finger_B_04_01SHJnt
+    100802: tasmanian_r_Finger_B_04JntFKGrp
+    100804: tasmanian_r_Finger_B_04JntFKGrp2
+    100806: tasmanian_r_Finger_B_04JntGrp
+    100808: tasmanian_r_Finger_B_04JntGrp2
+    100810: tasmanian_r_Finger_B_04JntIKGrp
+    100812: tasmanian_r_Finger_B_04JntIKGrp2
+    100814: tasmanian_r_Finger_B_05_01Jnt
+    100816: tasmanian_r_Finger_B_05_01JntFK
+    100818: tasmanian_r_Finger_B_05_01JntIK
+    100820: tasmanian_r_Finger_B_05_01SHJnt
+    100822: tasmanian_r_Finger_B_05JntFKGrp
+    100824: tasmanian_r_Finger_B_05JntFKGrp2
+    100826: tasmanian_r_Finger_B_05JntGrp
+    100828: tasmanian_r_Finger_B_05JntGrp2
+    100830: tasmanian_r_Finger_B_05JntIKGrp
+    100832: tasmanian_r_Finger_B_05JntIKGrp2
+    100834: tasmanian_r_Finger_B_ScaleGrp
+    100836: tasmanian_r_Finger_BGrp
+    100838: tasmanian_r_FrontLeg_AnkleFKCtrl
+    100840: tasmanian_r_FrontLeg_AnkleFKCtrlGrp
+    100842: tasmanian_r_FrontLeg_AnkleIKLockLctr
+    100844: tasmanian_r_FrontLeg_AnkleJnt
+    100846: tasmanian_r_FrontLeg_AnkleJntFK
+    100848: tasmanian_r_FrontLeg_AnkleJntFKGrp1
+    100850: tasmanian_r_FrontLeg_AnkleJntFKGrp2
+    100852: tasmanian_r_FrontLeg_AnkleJntIK
+    100854: tasmanian_r_FrontLeg_AnkleSHJnt
+    100856: tasmanian_r_FrontLeg_BallFKCtrl
+    100858: tasmanian_r_FrontLeg_BallFKCtrlGrp
+    100860: tasmanian_r_FrontLeg_BallJnt
+    100862: tasmanian_r_FrontLeg_BallJntFK
+    100864: tasmanian_r_FrontLeg_BallJntIK
+    100866: tasmanian_r_FrontLeg_BallSHJnt
+    100868: tasmanian_r_FrontLeg_BallSwivelLctr
+    100870: tasmanian_r_FrontLeg_FootBallPivotLctr
+    100872: tasmanian_r_FrontLeg_FootBallPivotLctr2
+    100874: tasmanian_r_FrontLeg_FootIKCtrl
+    100876: tasmanian_r_FrontLeg_FootIKCtrlGrp
+    100878: tasmanian_r_FrontLeg_FootLeftTiltLctr
+    100880: tasmanian_r_FrontLeg_FootRightTiltLctr
+    100882: tasmanian_r_FrontLeg_HeelIKCtrl
+    100884: tasmanian_r_FrontLeg_HeelIKCtrlGrp
+    100886: tasmanian_r_FrontLeg_HeelLctr
+    100888: tasmanian_r_FrontLeg_HipFKCtrl
+    100890: tasmanian_r_FrontLeg_HipFKCtrlGrp
+    100892: tasmanian_r_FrontLeg_HipIKLockLctr
+    100894: tasmanian_r_FrontLeg_HipJnt
+    100896: tasmanian_r_FrontLeg_HipJntFK
+    100898: tasmanian_r_FrontLeg_HipJntIK
+    100900: tasmanian_r_FrontLeg_HipSHJnt
+    100902: tasmanian_r_FrontLeg_KneeFKCtrl
+    100904: tasmanian_r_FrontLeg_KneeFKCtrlGrp
+    100906: tasmanian_r_FrontLeg_KneeIKCtrl
+    100908: tasmanian_r_FrontLeg_KneeIKCtrl_AnkleLctr
+    100910: tasmanian_r_FrontLeg_KneeIKCtrlGrp
+    100912: tasmanian_r_FrontLeg_KneeIKLockLctr
+    100914: tasmanian_r_FrontLeg_KneeJnt
+    100916: tasmanian_r_FrontLeg_KneeJntFK
+    100918: tasmanian_r_FrontLeg_KneeJntFKGrp1
+    100920: tasmanian_r_FrontLeg_KneeJntFKGrp2
+    100922: tasmanian_r_FrontLeg_KneeJntIK
+    100924: tasmanian_r_FrontLeg_KneeSHJnt
+    100926: tasmanian_r_FrontLeg_LegLengthEndLctr
+    100928: tasmanian_r_FrontLeg_LegLengthOriginLctr
+    100930: tasmanian_r_FrontLeg_ScaleGrp
+    100932: tasmanian_r_FrontLeg_SwitchCtrl
+    100934: tasmanian_r_FrontLeg_SwitchCtrlGrp
+    100936: tasmanian_r_FrontLeg_ToeFKCtrl
+    100938: tasmanian_r_FrontLeg_ToeFKCtrlGrp
+    100940: tasmanian_r_FrontLeg_ToeIKCtrl
+    100942: tasmanian_r_FrontLeg_ToeIKCtrlGrp
+    100944: tasmanian_r_FrontLeg_ToeJnt
+    100946: tasmanian_r_FrontLeg_ToeJntFK
+    100948: tasmanian_r_FrontLeg_ToeJntIK
+    100950: tasmanian_r_FrontLeg_ToeSHJnt
+    100952: tasmanian_r_FrontLegGrp
+    100954: tasmanian_r_HindLeg_AnkleFKCtrl
+    100956: tasmanian_r_HindLeg_AnkleFKCtrlGrp
+    100958: tasmanian_r_HindLeg_AnkleIKLockLctr
+    100960: tasmanian_r_HindLeg_AnkleJnt
+    100962: tasmanian_r_HindLeg_AnkleJntFK
+    100964: tasmanian_r_HindLeg_AnkleJntFKGrp1
+    100966: tasmanian_r_HindLeg_AnkleJntFKGrp2
+    100968: tasmanian_r_HindLeg_AnkleJntIK
+    100970: tasmanian_r_HindLeg_AnkleSHJnt
+    100972: tasmanian_r_HindLeg_BallFKCtrl
+    100974: tasmanian_r_HindLeg_BallFKCtrlGrp
+    100976: tasmanian_r_HindLeg_BallJnt
+    100978: tasmanian_r_HindLeg_BallJntFK
+    100980: tasmanian_r_HindLeg_BallJntIK
+    100982: tasmanian_r_HindLeg_BallSHJnt
+    100984: tasmanian_r_HindLeg_BallSwivelLctr
+    100986: tasmanian_r_HindLeg_FootBallPivotLctr
+    100988: tasmanian_r_HindLeg_FootIKCtrl
+    100990: tasmanian_r_HindLeg_FootIKCtrlGrp
+    100992: tasmanian_r_HindLeg_FootLeftTiltLctr
+    100994: tasmanian_r_HindLeg_FootRightTiltLctr
+    100996: tasmanian_r_HindLeg_FullLegLengthAimLctr
+    100998: tasmanian_r_HindLeg_FullLegLengthEndLctr
+    101000: tasmanian_r_HindLeg_HeelIKCtrl
+    101002: tasmanian_r_HindLeg_HeelIKCtrlGrp
+    101004: tasmanian_r_HindLeg_HeelLctr
+    101006: tasmanian_r_HindLeg_HipFKCtrl
+    101008: tasmanian_r_HindLeg_HipFKCtrlGrp
+    101010: tasmanian_r_HindLeg_HipIKLockLctr
+    101012: tasmanian_r_HindLeg_HipJnt
+    101014: tasmanian_r_HindLeg_HipJntFK
+    101016: tasmanian_r_HindLeg_HipJntIK
+    101018: tasmanian_r_HindLeg_HipSHJnt
+    101020: tasmanian_r_HindLeg_Knee1FKCtrl
+    101022: tasmanian_r_HindLeg_Knee1FKCtrlGrp
+    101024: tasmanian_r_HindLeg_Knee1Jnt
+    101026: tasmanian_r_HindLeg_Knee1JntFK
+    101028: tasmanian_r_HindLeg_Knee1JntFKGrp1
+    101030: tasmanian_r_HindLeg_Knee1JntFKGrp2
+    101032: tasmanian_r_HindLeg_Knee1JntIK
+    101034: tasmanian_r_HindLeg_Knee1SHJnt
+    101036: tasmanian_r_HindLeg_Knee2FKCtrl
+    101038: tasmanian_r_HindLeg_Knee2FKCtrlGrp
+    101040: tasmanian_r_HindLeg_Knee2Jnt
+    101042: tasmanian_r_HindLeg_Knee2JntFK
+    101044: tasmanian_r_HindLeg_Knee2JntFKGrp1
+    101046: tasmanian_r_HindLeg_Knee2JntFKGrp2
+    101048: tasmanian_r_HindLeg_Knee2JntIK
+    101050: tasmanian_r_HindLeg_Knee2SHJnt
+    101052: tasmanian_r_HindLeg_KneeIKCtrl
+    101054: tasmanian_r_HindLeg_KneeIKCtrlGrp
+    101056: tasmanian_r_HindLeg_KneeIKLockLctr
+    101058: tasmanian_r_HindLeg_LegLengthEndLctr
+    101060: tasmanian_r_HindLeg_LegLengthOriginLctr
+    101062: tasmanian_r_HindLeg_LowerKneeIKOffsetLctr
+    101064: tasmanian_r_HindLeg_LowerLegIKCLctr
+    101066: tasmanian_r_HindLeg_LowerLegIKCtrl
+    101068: tasmanian_r_HindLeg_LowerLegIKCtrlGrp
+    101070: tasmanian_r_HindLeg_LowerLegIKCtrlGrp2
+    101072: tasmanian_r_HindLeg_LowerLegIKCtrlGrp2_LctrOffset
+    101074: tasmanian_r_HindLeg_LowerLegIKCtrlGrp3
+    101076: tasmanian_r_HindLeg_ScaleGrp
+    101078: tasmanian_r_HindLeg_SwitchCtrl
+    101080: tasmanian_r_HindLeg_SwitchCtrlGrp
+    101082: tasmanian_r_HindLeg_ToeFKCtrl
+    101084: tasmanian_r_HindLeg_ToeFKCtrlGrp
+    101086: tasmanian_r_HindLeg_ToeIKCtrl
+    101088: tasmanian_r_HindLeg_ToeIKCtrlGrp
+    101090: tasmanian_r_HindLeg_ToeJnt
+    101092: tasmanian_r_HindLeg_ToeJntFK
+    101094: tasmanian_r_HindLeg_ToeJntIK
+    101096: tasmanian_r_HindLeg_ToeSHJnt
+    101098: tasmanian_r_HindLegGrp
+    101100: tasmanian_ROOTCtrl
+    101102: tasmanian_ROOTCtrlGrp
+    101104: tasmanian_ROOTGrp
+    101106: tasmanian_ROOTJnt
+    101108: tasmanian_ROOTParentCtrlGrp
+    101110: tasmanian_ROOTSecondaryCtrl
+    101112: tasmanian_ROOTSHJnt
+    101114: tasmanian_SHJntGrp
+    101116: tasmanian_Spine
+    101118: tasmanian_Spine_01CurveCtrl
+    101120: tasmanian_Spine_01CurveCtrlGrp
+    101122: tasmanian_Spine_01Jnt
+    101124: tasmanian_Spine_01SHJnt
+    101126: tasmanian_Spine_02CurveCtrl
+    101128: tasmanian_Spine_02CurveCtrlGrp
+    101130: tasmanian_Spine_02Jnt
+    101132: tasmanian_Spine_02SHJnt
+    101134: tasmanian_Spine_03CurveCtrl
+    101136: tasmanian_Spine_03CurveCtrlGrp
+    101138: tasmanian_Spine_03Jnt
+    101140: tasmanian_Spine_03SHJnt
+    101142: tasmanian_Spine_04CurveCtrl
+    101144: tasmanian_Spine_04CurveCtrlGrp
+    101146: tasmanian_Spine_04Jnt
+    101148: tasmanian_Spine_04SHJnt
+    101150: tasmanian_Spine_Btm01JntIK
+    101152: tasmanian_Spine_LengthClstr01
+    101154: tasmanian_Spine_LengthClstr02
+    101156: tasmanian_Spine_LengthClstr03
+    101158: tasmanian_Spine_LengthCurve
+    101160: tasmanian_Spine_MidIKCtrl
+    101162: tasmanian_Spine_MidIKCtrlGrp
+    101164: tasmanian_Spine_MidJntIK
+    101166: tasmanian_Spine_ScaleGrp
+    101168: tasmanian_Spine_TopIKCtrl
+    101170: tasmanian_Spine_TopIKCtrlGrp
+    101172: tasmanian_Spine_TopJnt
+    101174: tasmanian_Spine_TopJntIK
+    101176: tasmanian_Spine_TopSHJnt
+    101178: tasmanian_SpineGrp
+    101180: tasmanian_Tail_01_01Ctrl
+    101182: tasmanian_Tail_01_01CtrlGrp
+    101184: tasmanian_Tail_01_01CtrlGrp2
+    101186: tasmanian_Tail_01_01Jnt
+    101188: tasmanian_Tail_01_01JntFK
+    101190: tasmanian_Tail_01_01JntIK
+    101192: tasmanian_Tail_01_01SHJnt
+    101194: tasmanian_Tail_01_01SplineCtrl
+    101196: tasmanian_Tail_01_01SplineCtrlGrp
+    101198: tasmanian_Tail_01_01SplineCtrlGrp2
+    101200: tasmanian_Tail_01_02Ctrl
+    101202: tasmanian_Tail_01_02CtrlGrp
+    101204: tasmanian_Tail_01_02CtrlGrp2
+    101206: tasmanian_Tail_01_02Jnt
+    101208: tasmanian_Tail_01_02JntFK
+    101210: tasmanian_Tail_01_02JntIK
+    101212: tasmanian_Tail_01_02SHJnt
+    101214: tasmanian_Tail_01_03Ctrl
+    101216: tasmanian_Tail_01_03CtrlGrp
+    101218: tasmanian_Tail_01_03CtrlGrp2
+    101220: tasmanian_Tail_01_03Jnt
+    101222: tasmanian_Tail_01_03JntFK
+    101224: tasmanian_Tail_01_03JntIK
+    101226: tasmanian_Tail_01_03SHJnt
+    101228: tasmanian_Tail_01_04Ctrl
+    101230: tasmanian_Tail_01_04CtrlGrp
+    101232: tasmanian_Tail_01_04CtrlGrp2
+    101234: tasmanian_Tail_01_04Jnt
+    101236: tasmanian_Tail_01_04JntFK
+    101238: tasmanian_Tail_01_04JntIK
+    101240: tasmanian_Tail_01_04SHJnt
+    101242: tasmanian_Tail_01_05Ctrl
+    101244: tasmanian_Tail_01_05CtrlGrp
+    101246: tasmanian_Tail_01_05CtrlGrp2
+    101248: tasmanian_Tail_01_05Jnt
+    101250: tasmanian_Tail_01_05JntFK
+    101252: tasmanian_Tail_01_05JntIK
+    101254: tasmanian_Tail_01_05SHJnt
+    101256: tasmanian_Tail_01_06Ctrl
+    101258: tasmanian_Tail_01_06CtrlGrp
+    101260: tasmanian_Tail_01_06CtrlGrp2
+    101262: tasmanian_Tail_01_06Jnt
+    101264: tasmanian_Tail_01_06JntFK
+    101266: tasmanian_Tail_01_06JntIK
+    101268: tasmanian_Tail_01_06SHJnt
+    101270: tasmanian_Tail_01_SplineCurve
+    101272: tasmanian_Tail_01_SplineCurve2Clstr
+    101274: tasmanian_Tail_01_SplineCurve3Clstr
+    101276: tasmanian_Tail_01_SplineCurve4Clstr
+    101278: tasmanian_Tail_01_SplineCurve5Clstr
+    101280: tasmanian_Tail_01_SplineCurveEndClstr
+    101282: tasmanian_Tail_01_SplineCurveStartClstr
+    101284: tasmanian_Tail_01JntFKGrp
+    101286: tasmanian_Tail_01JntFKGrp2
+    101288: tasmanian_Tail_01JntGrp
+    101290: tasmanian_Tail_01JntGrp2
+    101292: tasmanian_Tail_01JntIKGrp
+    101294: tasmanian_Tail_01JntIKGrp2
+    101296: tasmanian_Tail_curveNodesGrp
+    101298: tasmanian_Tail_extraCurveNodesGrp
+    101300: tasmanian_Tail_MainChainCtrlGrp
+    101302: tasmanian_Tail_MasterCtrl
+    101304: tasmanian_Tail_MasterCtrlGrp
+    101306: tasmanian_Tail_ScaleGrp
+    101308: tasmanian_TailGrp
+    400000: //RootNode
+    400002: tasmanian
+    400004: Tasmanian_Devil_ZR5G
+    400006: tasmanian_Head_JawCtrl
+    400008: tasmanian_Head_JawCtrlGrp
+    400010: tasmanian_Head_JawEndJnt
+    400012: tasmanian_Head_JawEndSHJnt
+    400014: tasmanian_Head_JawJnt
+    400016: tasmanian_Head_JawSHJnt
+    400018: tasmanian_Head_MasterCtrl
+    400020: tasmanian_Head_MasterCtrlGrp
+    400022: tasmanian_Head_MasterCtrlScaleGrp
+    400024: tasmanian_Head_ScaleGrp
+    400026: tasmanian_Head_TopJnt
+    400028: tasmanian_Head_TopSHJnt
+    400030: tasmanian_HeadGrp
+    400032: tasmanian_l_Clavicle_01_01Jnt
+    400034: tasmanian_l_Clavicle_01_01JntFK
+    400036: tasmanian_l_Clavicle_01_01JntIK
+    400038: tasmanian_l_Clavicle_01_01SHJnt
+    400040: tasmanian_l_Clavicle_01JntFKGrp
+    400042: tasmanian_l_Clavicle_01JntFKGrp2
+    400044: tasmanian_l_Clavicle_01JntGrp
+    400046: tasmanian_l_Clavicle_01JntGrp2
+    400048: tasmanian_l_Clavicle_01JntIKGrp
+    400050: tasmanian_l_Clavicle_01JntIKGrp2
+    400052: tasmanian_l_Clavicle_ScaleGrp
+    400054: tasmanian_l_ClavicleGrp
+    400056: tasmanian_l_Eye_01Ctrl
+    400058: tasmanian_l_Eye_01Grp1
+    400060: tasmanian_l_Eye_01Grp2
+    400062: tasmanian_l_Eye_01Jnt
+    400064: tasmanian_l_Eye_01SHJnt
+    400066: tasmanian_l_Eye_ScaleGrp
+    400068: tasmanian_l_EyeGrp
+    400070: tasmanian_l_Finger_A_01_01Jnt
+    400072: tasmanian_l_Finger_A_01_01JntFK
+    400074: tasmanian_l_Finger_A_01_01JntIK
+    400076: tasmanian_l_Finger_A_01_01SHJnt
+    400078: tasmanian_l_Finger_A_01JntFKGrp
+    400080: tasmanian_l_Finger_A_01JntFKGrp2
+    400082: tasmanian_l_Finger_A_01JntGrp
+    400084: tasmanian_l_Finger_A_01JntGrp2
+    400086: tasmanian_l_Finger_A_01JntIKGrp
+    400088: tasmanian_l_Finger_A_01JntIKGrp2
+    400090: tasmanian_l_Finger_A_02_01Jnt
+    400092: tasmanian_l_Finger_A_02_01JntFK
+    400094: tasmanian_l_Finger_A_02_01JntIK
+    400096: tasmanian_l_Finger_A_02_01SHJnt
+    400098: tasmanian_l_Finger_A_02JntFKGrp
+    400100: tasmanian_l_Finger_A_02JntFKGrp2
+    400102: tasmanian_l_Finger_A_02JntGrp
+    400104: tasmanian_l_Finger_A_02JntGrp2
+    400106: tasmanian_l_Finger_A_02JntIKGrp
+    400108: tasmanian_l_Finger_A_02JntIKGrp2
+    400110: tasmanian_l_Finger_A_03_01Jnt
+    400112: tasmanian_l_Finger_A_03_01JntFK
+    400114: tasmanian_l_Finger_A_03_01JntIK
+    400116: tasmanian_l_Finger_A_03_01SHJnt
+    400118: tasmanian_l_Finger_A_03JntFKGrp
+    400120: tasmanian_l_Finger_A_03JntFKGrp2
+    400122: tasmanian_l_Finger_A_03JntGrp
+    400124: tasmanian_l_Finger_A_03JntGrp2
+    400126: tasmanian_l_Finger_A_03JntIKGrp
+    400128: tasmanian_l_Finger_A_03JntIKGrp2
+    400130: tasmanian_l_Finger_A_04_01Jnt
+    400132: tasmanian_l_Finger_A_04_01JntFK
+    400134: tasmanian_l_Finger_A_04_01JntIK
+    400136: tasmanian_l_Finger_A_04_01SHJnt
+    400138: tasmanian_l_Finger_A_04JntFKGrp
+    400140: tasmanian_l_Finger_A_04JntFKGrp2
+    400142: tasmanian_l_Finger_A_04JntGrp
+    400144: tasmanian_l_Finger_A_04JntGrp2
+    400146: tasmanian_l_Finger_A_04JntIKGrp
+    400148: tasmanian_l_Finger_A_04JntIKGrp2
+    400150: tasmanian_l_Finger_A_05_01Jnt
+    400152: tasmanian_l_Finger_A_05_01JntFK
+    400154: tasmanian_l_Finger_A_05_01JntIK
+    400156: tasmanian_l_Finger_A_05_01SHJnt
+    400158: tasmanian_l_Finger_A_05JntFKGrp
+    400160: tasmanian_l_Finger_A_05JntFKGrp2
+    400162: tasmanian_l_Finger_A_05JntGrp
+    400164: tasmanian_l_Finger_A_05JntGrp2
+    400166: tasmanian_l_Finger_A_05JntIKGrp
+    400168: tasmanian_l_Finger_A_05JntIKGrp2
+    400170: tasmanian_l_Finger_A_ScaleGrp
+    400172: tasmanian_l_Finger_AGrp
+    400174: tasmanian_l_Finger_B_01_01Jnt
+    400176: tasmanian_l_Finger_B_01_01JntFK
+    400178: tasmanian_l_Finger_B_01_01JntIK
+    400180: tasmanian_l_Finger_B_01_01SHJnt
+    400182: tasmanian_l_Finger_B_01JntFKGrp
+    400184: tasmanian_l_Finger_B_01JntFKGrp2
+    400186: tasmanian_l_Finger_B_01JntGrp
+    400188: tasmanian_l_Finger_B_01JntGrp2
+    400190: tasmanian_l_Finger_B_01JntIKGrp
+    400192: tasmanian_l_Finger_B_01JntIKGrp2
+    400194: tasmanian_l_Finger_B_02_01Jnt
+    400196: tasmanian_l_Finger_B_02_01JntFK
+    400198: tasmanian_l_Finger_B_02_01JntIK
+    400200: tasmanian_l_Finger_B_02_01SHJnt
+    400202: tasmanian_l_Finger_B_02JntFKGrp
+    400204: tasmanian_l_Finger_B_02JntFKGrp2
+    400206: tasmanian_l_Finger_B_02JntGrp
+    400208: tasmanian_l_Finger_B_02JntGrp2
+    400210: tasmanian_l_Finger_B_02JntIKGrp
+    400212: tasmanian_l_Finger_B_02JntIKGrp2
+    400214: tasmanian_l_Finger_B_03_01Jnt
+    400216: tasmanian_l_Finger_B_03_01JntFK
+    400218: tasmanian_l_Finger_B_03_01JntIK
+    400220: tasmanian_l_Finger_B_03_01SHJnt
+    400222: tasmanian_l_Finger_B_03JntFKGrp
+    400224: tasmanian_l_Finger_B_03JntFKGrp2
+    400226: tasmanian_l_Finger_B_03JntGrp
+    400228: tasmanian_l_Finger_B_03JntGrp2
+    400230: tasmanian_l_Finger_B_03JntIKGrp
+    400232: tasmanian_l_Finger_B_03JntIKGrp2
+    400234: tasmanian_l_Finger_B_04_01Jnt
+    400236: tasmanian_l_Finger_B_04_01JntFK
+    400238: tasmanian_l_Finger_B_04_01JntIK
+    400240: tasmanian_l_Finger_B_04_01SHJnt
+    400242: tasmanian_l_Finger_B_04JntFKGrp
+    400244: tasmanian_l_Finger_B_04JntFKGrp2
+    400246: tasmanian_l_Finger_B_04JntGrp
+    400248: tasmanian_l_Finger_B_04JntGrp2
+    400250: tasmanian_l_Finger_B_04JntIKGrp
+    400252: tasmanian_l_Finger_B_04JntIKGrp2
+    400254: tasmanian_l_Finger_B_05_01Jnt
+    400256: tasmanian_l_Finger_B_05_01JntFK
+    400258: tasmanian_l_Finger_B_05_01JntIK
+    400260: tasmanian_l_Finger_B_05_01SHJnt
+    400262: tasmanian_l_Finger_B_05JntFKGrp
+    400264: tasmanian_l_Finger_B_05JntFKGrp2
+    400266: tasmanian_l_Finger_B_05JntGrp
+    400268: tasmanian_l_Finger_B_05JntGrp2
+    400270: tasmanian_l_Finger_B_05JntIKGrp
+    400272: tasmanian_l_Finger_B_05JntIKGrp2
+    400274: tasmanian_l_Finger_B_ScaleGrp
+    400276: tasmanian_l_Finger_BGrp
+    400278: tasmanian_l_FrontLeg_AnkleFKCtrl
+    400280: tasmanian_l_FrontLeg_AnkleFKCtrlGrp
+    400282: tasmanian_l_FrontLeg_AnkleIKLockLctr
+    400284: tasmanian_l_FrontLeg_AnkleJnt
+    400286: tasmanian_l_FrontLeg_AnkleJntFK
+    400288: tasmanian_l_FrontLeg_AnkleJntFKGrp1
+    400290: tasmanian_l_FrontLeg_AnkleJntFKGrp2
+    400292: tasmanian_l_FrontLeg_AnkleJntIK
+    400294: tasmanian_l_FrontLeg_AnkleSHJnt
+    400296: tasmanian_l_FrontLeg_BallFKCtrl
+    400298: tasmanian_l_FrontLeg_BallFKCtrlGrp
+    400300: tasmanian_l_FrontLeg_BallJnt
+    400302: tasmanian_l_FrontLeg_BallJntFK
+    400304: tasmanian_l_FrontLeg_BallJntIK
+    400306: tasmanian_l_FrontLeg_BallSHJnt
+    400308: tasmanian_l_FrontLeg_BallSwivelLctr
+    400310: tasmanian_l_FrontLeg_FootBallPivotLctr
+    400312: tasmanian_l_FrontLeg_FootBallPivotLctr2
+    400314: tasmanian_l_FrontLeg_FootIKCtrl
+    400316: tasmanian_l_FrontLeg_FootIKCtrlGrp
+    400318: tasmanian_l_FrontLeg_FootLeftTiltLctr
+    400320: tasmanian_l_FrontLeg_FootRightTiltLctr
+    400322: tasmanian_l_FrontLeg_HeelIKCtrl
+    400324: tasmanian_l_FrontLeg_HeelIKCtrlGrp
+    400326: tasmanian_l_FrontLeg_HeelLctr
+    400328: tasmanian_l_FrontLeg_HipFKCtrl
+    400330: tasmanian_l_FrontLeg_HipFKCtrlGrp
+    400332: tasmanian_l_FrontLeg_HipIKLockLctr
+    400334: tasmanian_l_FrontLeg_HipJnt
+    400336: tasmanian_l_FrontLeg_HipJntFK
+    400338: tasmanian_l_FrontLeg_HipJntIK
+    400340: tasmanian_l_FrontLeg_HipSHJnt
+    400342: tasmanian_l_FrontLeg_KneeFKCtrl
+    400344: tasmanian_l_FrontLeg_KneeFKCtrlGrp
+    400346: tasmanian_l_FrontLeg_KneeIKCtrl
+    400348: tasmanian_l_FrontLeg_KneeIKCtrl_AnkleLctr
+    400350: tasmanian_l_FrontLeg_KneeIKCtrlGrp
+    400352: tasmanian_l_FrontLeg_KneeIKLockLctr
+    400354: tasmanian_l_FrontLeg_KneeJnt
+    400356: tasmanian_l_FrontLeg_KneeJntFK
+    400358: tasmanian_l_FrontLeg_KneeJntFKGrp1
+    400360: tasmanian_l_FrontLeg_KneeJntFKGrp2
+    400362: tasmanian_l_FrontLeg_KneeJntIK
+    400364: tasmanian_l_FrontLeg_KneeSHJnt
+    400366: tasmanian_l_FrontLeg_LegLengthEndLctr
+    400368: tasmanian_l_FrontLeg_LegLengthOriginLctr
+    400370: tasmanian_l_FrontLeg_ScaleGrp
+    400372: tasmanian_l_FrontLeg_SwitchCtrl
+    400374: tasmanian_l_FrontLeg_SwitchCtrlGrp
+    400376: tasmanian_l_FrontLeg_ToeFKCtrl
+    400378: tasmanian_l_FrontLeg_ToeFKCtrlGrp
+    400380: tasmanian_l_FrontLeg_ToeIKCtrl
+    400382: tasmanian_l_FrontLeg_ToeIKCtrlGrp
+    400384: tasmanian_l_FrontLeg_ToeJnt
+    400386: tasmanian_l_FrontLeg_ToeJntFK
+    400388: tasmanian_l_FrontLeg_ToeJntIK
+    400390: tasmanian_l_FrontLeg_ToeSHJnt
+    400392: tasmanian_l_FrontLegGrp
+    400394: tasmanian_l_HindLeg_AnkleFKCtrl
+    400396: tasmanian_l_HindLeg_AnkleFKCtrlGrp
+    400398: tasmanian_l_HindLeg_AnkleIKLockLctr
+    400400: tasmanian_l_HindLeg_AnkleJnt
+    400402: tasmanian_l_HindLeg_AnkleJntFK
+    400404: tasmanian_l_HindLeg_AnkleJntFKGrp1
+    400406: tasmanian_l_HindLeg_AnkleJntFKGrp2
+    400408: tasmanian_l_HindLeg_AnkleJntIK
+    400410: tasmanian_l_HindLeg_AnkleSHJnt
+    400412: tasmanian_l_HindLeg_BallFKCtrl
+    400414: tasmanian_l_HindLeg_BallFKCtrlGrp
+    400416: tasmanian_l_HindLeg_BallJnt
+    400418: tasmanian_l_HindLeg_BallJntFK
+    400420: tasmanian_l_HindLeg_BallJntIK
+    400422: tasmanian_l_HindLeg_BallSHJnt
+    400424: tasmanian_l_HindLeg_BallSwivelLctr
+    400426: tasmanian_l_HindLeg_FootBallPivotLctr
+    400428: tasmanian_l_HindLeg_FootIKCtrl
+    400430: tasmanian_l_HindLeg_FootIKCtrlGrp
+    400432: tasmanian_l_HindLeg_FootLeftTiltLctr
+    400434: tasmanian_l_HindLeg_FootRightTiltLctr
+    400436: tasmanian_l_HindLeg_FullLegLengthAimLctr
+    400438: tasmanian_l_HindLeg_FullLegLengthEndLctr
+    400440: tasmanian_l_HindLeg_HeelIKCtrl
+    400442: tasmanian_l_HindLeg_HeelIKCtrlGrp
+    400444: tasmanian_l_HindLeg_HeelLctr
+    400446: tasmanian_l_HindLeg_HipFKCtrl
+    400448: tasmanian_l_HindLeg_HipFKCtrlGrp
+    400450: tasmanian_l_HindLeg_HipIKLockLctr
+    400452: tasmanian_l_HindLeg_HipJnt
+    400454: tasmanian_l_HindLeg_HipJntFK
+    400456: tasmanian_l_HindLeg_HipJntIK
+    400458: tasmanian_l_HindLeg_HipSHJnt
+    400460: tasmanian_l_HindLeg_Knee1FKCtrl
+    400462: tasmanian_l_HindLeg_Knee1FKCtrlGrp
+    400464: tasmanian_l_HindLeg_Knee1Jnt
+    400466: tasmanian_l_HindLeg_Knee1JntFK
+    400468: tasmanian_l_HindLeg_Knee1JntFKGrp1
+    400470: tasmanian_l_HindLeg_Knee1JntFKGrp2
+    400472: tasmanian_l_HindLeg_Knee1JntIK
+    400474: tasmanian_l_HindLeg_Knee1SHJnt
+    400476: tasmanian_l_HindLeg_Knee2FKCtrl
+    400478: tasmanian_l_HindLeg_Knee2FKCtrlGrp
+    400480: tasmanian_l_HindLeg_Knee2Jnt
+    400482: tasmanian_l_HindLeg_Knee2JntFK
+    400484: tasmanian_l_HindLeg_Knee2JntFKGrp1
+    400486: tasmanian_l_HindLeg_Knee2JntFKGrp2
+    400488: tasmanian_l_HindLeg_Knee2JntIK
+    400490: tasmanian_l_HindLeg_Knee2SHJnt
+    400492: tasmanian_l_HindLeg_KneeIKCtrl
+    400494: tasmanian_l_HindLeg_KneeIKCtrlGrp
+    400496: tasmanian_l_HindLeg_KneeIKLockLctr
+    400498: tasmanian_l_HindLeg_LegLengthEndLctr
+    400500: tasmanian_l_HindLeg_LegLengthOriginLctr
+    400502: tasmanian_l_HindLeg_LowerKneeIKOffsetLctr
+    400504: tasmanian_l_HindLeg_LowerLegIKCLctr
+    400506: tasmanian_l_HindLeg_LowerLegIKCtrl
+    400508: tasmanian_l_HindLeg_LowerLegIKCtrlGrp
+    400510: tasmanian_l_HindLeg_LowerLegIKCtrlGrp2
+    400512: tasmanian_l_HindLeg_LowerLegIKCtrlGrp2_LctrOffset
+    400514: tasmanian_l_HindLeg_LowerLegIKCtrlGrp3
+    400516: tasmanian_l_HindLeg_ScaleGrp
+    400518: tasmanian_l_HindLeg_SwitchCtrl
+    400520: tasmanian_l_HindLeg_SwitchCtrlGrp
+    400522: tasmanian_l_HindLeg_ToeFKCtrl
+    400524: tasmanian_l_HindLeg_ToeFKCtrlGrp
+    400526: tasmanian_l_HindLeg_ToeIKCtrl
+    400528: tasmanian_l_HindLeg_ToeIKCtrlGrp
+    400530: tasmanian_l_HindLeg_ToeJnt
+    400532: tasmanian_l_HindLeg_ToeJntFK
+    400534: tasmanian_l_HindLeg_ToeJntIK
+    400536: tasmanian_l_HindLeg_ToeSHJnt
+    400538: tasmanian_l_HindLegGrp
+    400540: tasmanian_MAINCtrl
+    400542: tasmanian_MAINSHJnt
+    400544: tasmanian_Neck
+    400546: tasmanian_Neck_01CurveCtrl
+    400548: tasmanian_Neck_01CurveCtrlGrp
+    400550: tasmanian_Neck_01Jnt
+    400552: tasmanian_Neck_01SHJnt
+    400554: tasmanian_Neck_02CurveCtrl
+    400556: tasmanian_Neck_02CurveCtrlGrp
+    400558: tasmanian_Neck_02Jnt
+    400560: tasmanian_Neck_02SHJnt
+    400562: tasmanian_Neck_Btm01JntIK
+    400564: tasmanian_Neck_LengthClstr01
+    400566: tasmanian_Neck_LengthClstr02
+    400568: tasmanian_Neck_LengthClstr03
+    400570: tasmanian_Neck_LengthCurve
+    400572: tasmanian_Neck_MidIKCtrl
+    400574: tasmanian_Neck_MidIKCtrlGrp
+    400576: tasmanian_Neck_MidJntIK
+    400578: tasmanian_Neck_ScaleGrp
+    400580: tasmanian_Neck_TopIKCtrl
+    400582: tasmanian_Neck_TopIKCtrlGrp
+    400584: tasmanian_Neck_TopJnt
+    400586: tasmanian_Neck_TopJntIK
+    400588: tasmanian_Neck_TopSHJnt
+    400590: tasmanian_NeckGrp
+    400592: tasmanian_r_Clavicle_01_01Jnt
+    400594: tasmanian_r_Clavicle_01_01JntFK
+    400596: tasmanian_r_Clavicle_01_01JntIK
+    400598: tasmanian_r_Clavicle_01_01SHJnt
+    400600: tasmanian_r_Clavicle_01JntFKGrp
+    400602: tasmanian_r_Clavicle_01JntFKGrp2
+    400604: tasmanian_r_Clavicle_01JntGrp
+    400606: tasmanian_r_Clavicle_01JntGrp2
+    400608: tasmanian_r_Clavicle_01JntIKGrp
+    400610: tasmanian_r_Clavicle_01JntIKGrp2
+    400612: tasmanian_r_Clavicle_ScaleGrp
+    400614: tasmanian_r_ClavicleGrp
+    400616: tasmanian_r_Eye_01Ctrl
+    400618: tasmanian_r_Eye_01Grp1
+    400620: tasmanian_r_Eye_01Grp2
+    400622: tasmanian_r_Eye_01Jnt
+    400624: tasmanian_r_Eye_01SHJnt
+    400626: tasmanian_r_Eye_ScaleGrp
+    400628: tasmanian_r_EyeGrp
+    400630: tasmanian_r_Finger_A_01_01Jnt
+    400632: tasmanian_r_Finger_A_01_01JntFK
+    400634: tasmanian_r_Finger_A_01_01JntIK
+    400636: tasmanian_r_Finger_A_01_01SHJnt
+    400638: tasmanian_r_Finger_A_01JntFKGrp
+    400640: tasmanian_r_Finger_A_01JntFKGrp2
+    400642: tasmanian_r_Finger_A_01JntGrp
+    400644: tasmanian_r_Finger_A_01JntGrp2
+    400646: tasmanian_r_Finger_A_01JntIKGrp
+    400648: tasmanian_r_Finger_A_01JntIKGrp2
+    400650: tasmanian_r_Finger_A_02_01Jnt
+    400652: tasmanian_r_Finger_A_02_01JntFK
+    400654: tasmanian_r_Finger_A_02_01JntIK
+    400656: tasmanian_r_Finger_A_02_01SHJnt
+    400658: tasmanian_r_Finger_A_02JntFKGrp
+    400660: tasmanian_r_Finger_A_02JntFKGrp2
+    400662: tasmanian_r_Finger_A_02JntGrp
+    400664: tasmanian_r_Finger_A_02JntGrp2
+    400666: tasmanian_r_Finger_A_02JntIKGrp
+    400668: tasmanian_r_Finger_A_02JntIKGrp2
+    400670: tasmanian_r_Finger_A_03_01Jnt
+    400672: tasmanian_r_Finger_A_03_01JntFK
+    400674: tasmanian_r_Finger_A_03_01JntIK
+    400676: tasmanian_r_Finger_A_03_01SHJnt
+    400678: tasmanian_r_Finger_A_03JntFKGrp
+    400680: tasmanian_r_Finger_A_03JntFKGrp2
+    400682: tasmanian_r_Finger_A_03JntGrp
+    400684: tasmanian_r_Finger_A_03JntGrp2
+    400686: tasmanian_r_Finger_A_03JntIKGrp
+    400688: tasmanian_r_Finger_A_03JntIKGrp2
+    400690: tasmanian_r_Finger_A_04_01Jnt
+    400692: tasmanian_r_Finger_A_04_01JntFK
+    400694: tasmanian_r_Finger_A_04_01JntIK
+    400696: tasmanian_r_Finger_A_04_01SHJnt
+    400698: tasmanian_r_Finger_A_04JntFKGrp
+    400700: tasmanian_r_Finger_A_04JntFKGrp2
+    400702: tasmanian_r_Finger_A_04JntGrp
+    400704: tasmanian_r_Finger_A_04JntGrp2
+    400706: tasmanian_r_Finger_A_04JntIKGrp
+    400708: tasmanian_r_Finger_A_04JntIKGrp2
+    400710: tasmanian_r_Finger_A_05_01Jnt
+    400712: tasmanian_r_Finger_A_05_01JntFK
+    400714: tasmanian_r_Finger_A_05_01JntIK
+    400716: tasmanian_r_Finger_A_05_01SHJnt
+    400718: tasmanian_r_Finger_A_05JntFKGrp
+    400720: tasmanian_r_Finger_A_05JntFKGrp2
+    400722: tasmanian_r_Finger_A_05JntGrp
+    400724: tasmanian_r_Finger_A_05JntGrp2
+    400726: tasmanian_r_Finger_A_05JntIKGrp
+    400728: tasmanian_r_Finger_A_05JntIKGrp2
+    400730: tasmanian_r_Finger_A_ScaleGrp
+    400732: tasmanian_r_Finger_AGrp
+    400734: tasmanian_r_Finger_B_01_01Jnt
+    400736: tasmanian_r_Finger_B_01_01JntFK
+    400738: tasmanian_r_Finger_B_01_01JntIK
+    400740: tasmanian_r_Finger_B_01_01SHJnt
+    400742: tasmanian_r_Finger_B_01JntFKGrp
+    400744: tasmanian_r_Finger_B_01JntFKGrp2
+    400746: tasmanian_r_Finger_B_01JntGrp
+    400748: tasmanian_r_Finger_B_01JntGrp2
+    400750: tasmanian_r_Finger_B_01JntIKGrp
+    400752: tasmanian_r_Finger_B_01JntIKGrp2
+    400754: tasmanian_r_Finger_B_02_01Jnt
+    400756: tasmanian_r_Finger_B_02_01JntFK
+    400758: tasmanian_r_Finger_B_02_01JntIK
+    400760: tasmanian_r_Finger_B_02_01SHJnt
+    400762: tasmanian_r_Finger_B_02JntFKGrp
+    400764: tasmanian_r_Finger_B_02JntFKGrp2
+    400766: tasmanian_r_Finger_B_02JntGrp
+    400768: tasmanian_r_Finger_B_02JntGrp2
+    400770: tasmanian_r_Finger_B_02JntIKGrp
+    400772: tasmanian_r_Finger_B_02JntIKGrp2
+    400774: tasmanian_r_Finger_B_03_01Jnt
+    400776: tasmanian_r_Finger_B_03_01JntFK
+    400778: tasmanian_r_Finger_B_03_01JntIK
+    400780: tasmanian_r_Finger_B_03_01SHJnt
+    400782: tasmanian_r_Finger_B_03JntFKGrp
+    400784: tasmanian_r_Finger_B_03JntFKGrp2
+    400786: tasmanian_r_Finger_B_03JntGrp
+    400788: tasmanian_r_Finger_B_03JntGrp2
+    400790: tasmanian_r_Finger_B_03JntIKGrp
+    400792: tasmanian_r_Finger_B_03JntIKGrp2
+    400794: tasmanian_r_Finger_B_04_01Jnt
+    400796: tasmanian_r_Finger_B_04_01JntFK
+    400798: tasmanian_r_Finger_B_04_01JntIK
+    400800: tasmanian_r_Finger_B_04_01SHJnt
+    400802: tasmanian_r_Finger_B_04JntFKGrp
+    400804: tasmanian_r_Finger_B_04JntFKGrp2
+    400806: tasmanian_r_Finger_B_04JntGrp
+    400808: tasmanian_r_Finger_B_04JntGrp2
+    400810: tasmanian_r_Finger_B_04JntIKGrp
+    400812: tasmanian_r_Finger_B_04JntIKGrp2
+    400814: tasmanian_r_Finger_B_05_01Jnt
+    400816: tasmanian_r_Finger_B_05_01JntFK
+    400818: tasmanian_r_Finger_B_05_01JntIK
+    400820: tasmanian_r_Finger_B_05_01SHJnt
+    400822: tasmanian_r_Finger_B_05JntFKGrp
+    400824: tasmanian_r_Finger_B_05JntFKGrp2
+    400826: tasmanian_r_Finger_B_05JntGrp
+    400828: tasmanian_r_Finger_B_05JntGrp2
+    400830: tasmanian_r_Finger_B_05JntIKGrp
+    400832: tasmanian_r_Finger_B_05JntIKGrp2
+    400834: tasmanian_r_Finger_B_ScaleGrp
+    400836: tasmanian_r_Finger_BGrp
+    400838: tasmanian_r_FrontLeg_AnkleFKCtrl
+    400840: tasmanian_r_FrontLeg_AnkleFKCtrlGrp
+    400842: tasmanian_r_FrontLeg_AnkleIKLockLctr
+    400844: tasmanian_r_FrontLeg_AnkleJnt
+    400846: tasmanian_r_FrontLeg_AnkleJntFK
+    400848: tasmanian_r_FrontLeg_AnkleJntFKGrp1
+    400850: tasmanian_r_FrontLeg_AnkleJntFKGrp2
+    400852: tasmanian_r_FrontLeg_AnkleJntIK
+    400854: tasmanian_r_FrontLeg_AnkleSHJnt
+    400856: tasmanian_r_FrontLeg_BallFKCtrl
+    400858: tasmanian_r_FrontLeg_BallFKCtrlGrp
+    400860: tasmanian_r_FrontLeg_BallJnt
+    400862: tasmanian_r_FrontLeg_BallJntFK
+    400864: tasmanian_r_FrontLeg_BallJntIK
+    400866: tasmanian_r_FrontLeg_BallSHJnt
+    400868: tasmanian_r_FrontLeg_BallSwivelLctr
+    400870: tasmanian_r_FrontLeg_FootBallPivotLctr
+    400872: tasmanian_r_FrontLeg_FootBallPivotLctr2
+    400874: tasmanian_r_FrontLeg_FootIKCtrl
+    400876: tasmanian_r_FrontLeg_FootIKCtrlGrp
+    400878: tasmanian_r_FrontLeg_FootLeftTiltLctr
+    400880: tasmanian_r_FrontLeg_FootRightTiltLctr
+    400882: tasmanian_r_FrontLeg_HeelIKCtrl
+    400884: tasmanian_r_FrontLeg_HeelIKCtrlGrp
+    400886: tasmanian_r_FrontLeg_HeelLctr
+    400888: tasmanian_r_FrontLeg_HipFKCtrl
+    400890: tasmanian_r_FrontLeg_HipFKCtrlGrp
+    400892: tasmanian_r_FrontLeg_HipIKLockLctr
+    400894: tasmanian_r_FrontLeg_HipJnt
+    400896: tasmanian_r_FrontLeg_HipJntFK
+    400898: tasmanian_r_FrontLeg_HipJntIK
+    400900: tasmanian_r_FrontLeg_HipSHJnt
+    400902: tasmanian_r_FrontLeg_KneeFKCtrl
+    400904: tasmanian_r_FrontLeg_KneeFKCtrlGrp
+    400906: tasmanian_r_FrontLeg_KneeIKCtrl
+    400908: tasmanian_r_FrontLeg_KneeIKCtrl_AnkleLctr
+    400910: tasmanian_r_FrontLeg_KneeIKCtrlGrp
+    400912: tasmanian_r_FrontLeg_KneeIKLockLctr
+    400914: tasmanian_r_FrontLeg_KneeJnt
+    400916: tasmanian_r_FrontLeg_KneeJntFK
+    400918: tasmanian_r_FrontLeg_KneeJntFKGrp1
+    400920: tasmanian_r_FrontLeg_KneeJntFKGrp2
+    400922: tasmanian_r_FrontLeg_KneeJntIK
+    400924: tasmanian_r_FrontLeg_KneeSHJnt
+    400926: tasmanian_r_FrontLeg_LegLengthEndLctr
+    400928: tasmanian_r_FrontLeg_LegLengthOriginLctr
+    400930: tasmanian_r_FrontLeg_ScaleGrp
+    400932: tasmanian_r_FrontLeg_SwitchCtrl
+    400934: tasmanian_r_FrontLeg_SwitchCtrlGrp
+    400936: tasmanian_r_FrontLeg_ToeFKCtrl
+    400938: tasmanian_r_FrontLeg_ToeFKCtrlGrp
+    400940: tasmanian_r_FrontLeg_ToeIKCtrl
+    400942: tasmanian_r_FrontLeg_ToeIKCtrlGrp
+    400944: tasmanian_r_FrontLeg_ToeJnt
+    400946: tasmanian_r_FrontLeg_ToeJntFK
+    400948: tasmanian_r_FrontLeg_ToeJntIK
+    400950: tasmanian_r_FrontLeg_ToeSHJnt
+    400952: tasmanian_r_FrontLegGrp
+    400954: tasmanian_r_HindLeg_AnkleFKCtrl
+    400956: tasmanian_r_HindLeg_AnkleFKCtrlGrp
+    400958: tasmanian_r_HindLeg_AnkleIKLockLctr
+    400960: tasmanian_r_HindLeg_AnkleJnt
+    400962: tasmanian_r_HindLeg_AnkleJntFK
+    400964: tasmanian_r_HindLeg_AnkleJntFKGrp1
+    400966: tasmanian_r_HindLeg_AnkleJntFKGrp2
+    400968: tasmanian_r_HindLeg_AnkleJntIK
+    400970: tasmanian_r_HindLeg_AnkleSHJnt
+    400972: tasmanian_r_HindLeg_BallFKCtrl
+    400974: tasmanian_r_HindLeg_BallFKCtrlGrp
+    400976: tasmanian_r_HindLeg_BallJnt
+    400978: tasmanian_r_HindLeg_BallJntFK
+    400980: tasmanian_r_HindLeg_BallJntIK
+    400982: tasmanian_r_HindLeg_BallSHJnt
+    400984: tasmanian_r_HindLeg_BallSwivelLctr
+    400986: tasmanian_r_HindLeg_FootBallPivotLctr
+    400988: tasmanian_r_HindLeg_FootIKCtrl
+    400990: tasmanian_r_HindLeg_FootIKCtrlGrp
+    400992: tasmanian_r_HindLeg_FootLeftTiltLctr
+    400994: tasmanian_r_HindLeg_FootRightTiltLctr
+    400996: tasmanian_r_HindLeg_FullLegLengthAimLctr
+    400998: tasmanian_r_HindLeg_FullLegLengthEndLctr
+    401000: tasmanian_r_HindLeg_HeelIKCtrl
+    401002: tasmanian_r_HindLeg_HeelIKCtrlGrp
+    401004: tasmanian_r_HindLeg_HeelLctr
+    401006: tasmanian_r_HindLeg_HipFKCtrl
+    401008: tasmanian_r_HindLeg_HipFKCtrlGrp
+    401010: tasmanian_r_HindLeg_HipIKLockLctr
+    401012: tasmanian_r_HindLeg_HipJnt
+    401014: tasmanian_r_HindLeg_HipJntFK
+    401016: tasmanian_r_HindLeg_HipJntIK
+    401018: tasmanian_r_HindLeg_HipSHJnt
+    401020: tasmanian_r_HindLeg_Knee1FKCtrl
+    401022: tasmanian_r_HindLeg_Knee1FKCtrlGrp
+    401024: tasmanian_r_HindLeg_Knee1Jnt
+    401026: tasmanian_r_HindLeg_Knee1JntFK
+    401028: tasmanian_r_HindLeg_Knee1JntFKGrp1
+    401030: tasmanian_r_HindLeg_Knee1JntFKGrp2
+    401032: tasmanian_r_HindLeg_Knee1JntIK
+    401034: tasmanian_r_HindLeg_Knee1SHJnt
+    401036: tasmanian_r_HindLeg_Knee2FKCtrl
+    401038: tasmanian_r_HindLeg_Knee2FKCtrlGrp
+    401040: tasmanian_r_HindLeg_Knee2Jnt
+    401042: tasmanian_r_HindLeg_Knee2JntFK
+    401044: tasmanian_r_HindLeg_Knee2JntFKGrp1
+    401046: tasmanian_r_HindLeg_Knee2JntFKGrp2
+    401048: tasmanian_r_HindLeg_Knee2JntIK
+    401050: tasmanian_r_HindLeg_Knee2SHJnt
+    401052: tasmanian_r_HindLeg_KneeIKCtrl
+    401054: tasmanian_r_HindLeg_KneeIKCtrlGrp
+    401056: tasmanian_r_HindLeg_KneeIKLockLctr
+    401058: tasmanian_r_HindLeg_LegLengthEndLctr
+    401060: tasmanian_r_HindLeg_LegLengthOriginLctr
+    401062: tasmanian_r_HindLeg_LowerKneeIKOffsetLctr
+    401064: tasmanian_r_HindLeg_LowerLegIKCLctr
+    401066: tasmanian_r_HindLeg_LowerLegIKCtrl
+    401068: tasmanian_r_HindLeg_LowerLegIKCtrlGrp
+    401070: tasmanian_r_HindLeg_LowerLegIKCtrlGrp2
+    401072: tasmanian_r_HindLeg_LowerLegIKCtrlGrp2_LctrOffset
+    401074: tasmanian_r_HindLeg_LowerLegIKCtrlGrp3
+    401076: tasmanian_r_HindLeg_ScaleGrp
+    401078: tasmanian_r_HindLeg_SwitchCtrl
+    401080: tasmanian_r_HindLeg_SwitchCtrlGrp
+    401082: tasmanian_r_HindLeg_ToeFKCtrl
+    401084: tasmanian_r_HindLeg_ToeFKCtrlGrp
+    401086: tasmanian_r_HindLeg_ToeIKCtrl
+    401088: tasmanian_r_HindLeg_ToeIKCtrlGrp
+    401090: tasmanian_r_HindLeg_ToeJnt
+    401092: tasmanian_r_HindLeg_ToeJntFK
+    401094: tasmanian_r_HindLeg_ToeJntIK
+    401096: tasmanian_r_HindLeg_ToeSHJnt
+    401098: tasmanian_r_HindLegGrp
+    401100: tasmanian_ROOTCtrl
+    401102: tasmanian_ROOTCtrlGrp
+    401104: tasmanian_ROOTGrp
+    401106: tasmanian_ROOTJnt
+    401108: tasmanian_ROOTParentCtrlGrp
+    401110: tasmanian_ROOTSecondaryCtrl
+    401112: tasmanian_ROOTSHJnt
+    401114: tasmanian_SHJntGrp
+    401116: tasmanian_Spine
+    401118: tasmanian_Spine_01CurveCtrl
+    401120: tasmanian_Spine_01CurveCtrlGrp
+    401122: tasmanian_Spine_01Jnt
+    401124: tasmanian_Spine_01SHJnt
+    401126: tasmanian_Spine_02CurveCtrl
+    401128: tasmanian_Spine_02CurveCtrlGrp
+    401130: tasmanian_Spine_02Jnt
+    401132: tasmanian_Spine_02SHJnt
+    401134: tasmanian_Spine_03CurveCtrl
+    401136: tasmanian_Spine_03CurveCtrlGrp
+    401138: tasmanian_Spine_03Jnt
+    401140: tasmanian_Spine_03SHJnt
+    401142: tasmanian_Spine_04CurveCtrl
+    401144: tasmanian_Spine_04CurveCtrlGrp
+    401146: tasmanian_Spine_04Jnt
+    401148: tasmanian_Spine_04SHJnt
+    401150: tasmanian_Spine_Btm01JntIK
+    401152: tasmanian_Spine_LengthClstr01
+    401154: tasmanian_Spine_LengthClstr02
+    401156: tasmanian_Spine_LengthClstr03
+    401158: tasmanian_Spine_LengthCurve
+    401160: tasmanian_Spine_MidIKCtrl
+    401162: tasmanian_Spine_MidIKCtrlGrp
+    401164: tasmanian_Spine_MidJntIK
+    401166: tasmanian_Spine_ScaleGrp
+    401168: tasmanian_Spine_TopIKCtrl
+    401170: tasmanian_Spine_TopIKCtrlGrp
+    401172: tasmanian_Spine_TopJnt
+    401174: tasmanian_Spine_TopJntIK
+    401176: tasmanian_Spine_TopSHJnt
+    401178: tasmanian_SpineGrp
+    401180: tasmanian_Tail_01_01Ctrl
+    401182: tasmanian_Tail_01_01CtrlGrp
+    401184: tasmanian_Tail_01_01CtrlGrp2
+    401186: tasmanian_Tail_01_01Jnt
+    401188: tasmanian_Tail_01_01JntFK
+    401190: tasmanian_Tail_01_01JntIK
+    401192: tasmanian_Tail_01_01SHJnt
+    401194: tasmanian_Tail_01_01SplineCtrl
+    401196: tasmanian_Tail_01_01SplineCtrlGrp
+    401198: tasmanian_Tail_01_01SplineCtrlGrp2
+    401200: tasmanian_Tail_01_02Ctrl
+    401202: tasmanian_Tail_01_02CtrlGrp
+    401204: tasmanian_Tail_01_02CtrlGrp2
+    401206: tasmanian_Tail_01_02Jnt
+    401208: tasmanian_Tail_01_02JntFK
+    401210: tasmanian_Tail_01_02JntIK
+    401212: tasmanian_Tail_01_02SHJnt
+    401214: tasmanian_Tail_01_03Ctrl
+    401216: tasmanian_Tail_01_03CtrlGrp
+    401218: tasmanian_Tail_01_03CtrlGrp2
+    401220: tasmanian_Tail_01_03Jnt
+    401222: tasmanian_Tail_01_03JntFK
+    401224: tasmanian_Tail_01_03JntIK
+    401226: tasmanian_Tail_01_03SHJnt
+    401228: tasmanian_Tail_01_04Ctrl
+    401230: tasmanian_Tail_01_04CtrlGrp
+    401232: tasmanian_Tail_01_04CtrlGrp2
+    401234: tasmanian_Tail_01_04Jnt
+    401236: tasmanian_Tail_01_04JntFK
+    401238: tasmanian_Tail_01_04JntIK
+    401240: tasmanian_Tail_01_04SHJnt
+    401242: tasmanian_Tail_01_05Ctrl
+    401244: tasmanian_Tail_01_05CtrlGrp
+    401246: tasmanian_Tail_01_05CtrlGrp2
+    401248: tasmanian_Tail_01_05Jnt
+    401250: tasmanian_Tail_01_05JntFK
+    401252: tasmanian_Tail_01_05JntIK
+    401254: tasmanian_Tail_01_05SHJnt
+    401256: tasmanian_Tail_01_06Ctrl
+    401258: tasmanian_Tail_01_06CtrlGrp
+    401260: tasmanian_Tail_01_06CtrlGrp2
+    401262: tasmanian_Tail_01_06Jnt
+    401264: tasmanian_Tail_01_06JntFK
+    401266: tasmanian_Tail_01_06JntIK
+    401268: tasmanian_Tail_01_06SHJnt
+    401270: tasmanian_Tail_01_SplineCurve
+    401272: tasmanian_Tail_01_SplineCurve2Clstr
+    401274: tasmanian_Tail_01_SplineCurve3Clstr
+    401276: tasmanian_Tail_01_SplineCurve4Clstr
+    401278: tasmanian_Tail_01_SplineCurve5Clstr
+    401280: tasmanian_Tail_01_SplineCurveEndClstr
+    401282: tasmanian_Tail_01_SplineCurveStartClstr
+    401284: tasmanian_Tail_01JntFKGrp
+    401286: tasmanian_Tail_01JntFKGrp2
+    401288: tasmanian_Tail_01JntGrp
+    401290: tasmanian_Tail_01JntGrp2
+    401292: tasmanian_Tail_01JntIKGrp
+    401294: tasmanian_Tail_01JntIKGrp2
+    401296: tasmanian_Tail_curveNodesGrp
+    401298: tasmanian_Tail_extraCurveNodesGrp
+    401300: tasmanian_Tail_MainChainCtrlGrp
+    401302: tasmanian_Tail_MasterCtrl
+    401304: tasmanian_Tail_MasterCtrlGrp
+    401306: tasmanian_Tail_ScaleGrp
+    401308: tasmanian_TailGrp
+    4300000: Tasmanian_Devil_ZR5G
+    7400000: Roar
+    9500000: //RootNode
+    13700000: Tasmanian_Devil_ZR5G
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Roar
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: tasmanian
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_HeadGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_HeadGrp/tasmanian_Head_ScaleGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_HeadGrp/tasmanian_Head_ScaleGrp/tasmanian_Head_MasterCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_HeadGrp/tasmanian_Head_ScaleGrp/tasmanian_Head_MasterCtrlGrp/tasmanian_Head_MasterCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_HeadGrp/tasmanian_Head_ScaleGrp/tasmanian_Head_MasterCtrlScaleGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_HeadGrp/tasmanian_Head_ScaleGrp/tasmanian_Head_MasterCtrlScaleGrp/tasmanian_Head_JawCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_HeadGrp/tasmanian_Head_ScaleGrp/tasmanian_Head_MasterCtrlScaleGrp/tasmanian_Head_JawCtrlGrp/tasmanian_Head_JawCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_HeadGrp/tasmanian_Head_ScaleGrp/tasmanian_Head_MasterCtrlScaleGrp/tasmanian_Head_JawJnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_HeadGrp/tasmanian_Head_ScaleGrp/tasmanian_Head_MasterCtrlScaleGrp/tasmanian_Head_JawJnt/tasmanian_Head_JawEndJnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_HeadGrp/tasmanian_Head_ScaleGrp/tasmanian_Head_MasterCtrlScaleGrp/tasmanian_Head_TopJnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_ClavicleGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_ClavicleGrp/tasmanian_l_Clavicle_ScaleGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_ClavicleGrp/tasmanian_l_Clavicle_ScaleGrp/tasmanian_l_Clavicle_01JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_ClavicleGrp/tasmanian_l_Clavicle_ScaleGrp/tasmanian_l_Clavicle_01JntFKGrp2/tasmanian_l_Clavicle_01JntFKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_ClavicleGrp/tasmanian_l_Clavicle_ScaleGrp/tasmanian_l_Clavicle_01JntFKGrp2/tasmanian_l_Clavicle_01JntFKGrp/tasmanian_l_Clavicle_01_01JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_ClavicleGrp/tasmanian_l_Clavicle_ScaleGrp/tasmanian_l_Clavicle_01JntGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_ClavicleGrp/tasmanian_l_Clavicle_ScaleGrp/tasmanian_l_Clavicle_01JntGrp2/tasmanian_l_Clavicle_01JntGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_ClavicleGrp/tasmanian_l_Clavicle_ScaleGrp/tasmanian_l_Clavicle_01JntGrp2/tasmanian_l_Clavicle_01JntGrp/tasmanian_l_Clavicle_01_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_ClavicleGrp/tasmanian_l_Clavicle_ScaleGrp/tasmanian_l_Clavicle_01JntIKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_ClavicleGrp/tasmanian_l_Clavicle_ScaleGrp/tasmanian_l_Clavicle_01JntIKGrp2/tasmanian_l_Clavicle_01JntIKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_ClavicleGrp/tasmanian_l_Clavicle_ScaleGrp/tasmanian_l_Clavicle_01JntIKGrp2/tasmanian_l_Clavicle_01JntIKGrp/tasmanian_l_Clavicle_01_01JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_EyeGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_EyeGrp/tasmanian_l_Eye_ScaleGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_EyeGrp/tasmanian_l_Eye_ScaleGrp/tasmanian_l_Eye_01Grp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_EyeGrp/tasmanian_l_Eye_ScaleGrp/tasmanian_l_Eye_01Grp2/tasmanian_l_Eye_01Grp1
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_EyeGrp/tasmanian_l_Eye_ScaleGrp/tasmanian_l_Eye_01Grp2/tasmanian_l_Eye_01Grp1/tasmanian_l_Eye_01Ctrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_EyeGrp/tasmanian_l_Eye_ScaleGrp/tasmanian_l_Eye_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_01JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_01JntFKGrp2/tasmanian_l_Finger_A_01JntFKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_01JntFKGrp2/tasmanian_l_Finger_A_01JntFKGrp/tasmanian_l_Finger_A_01_01JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_01JntGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_01JntGrp2/tasmanian_l_Finger_A_01JntGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_01JntGrp2/tasmanian_l_Finger_A_01JntGrp/tasmanian_l_Finger_A_01_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_01JntIKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_01JntIKGrp2/tasmanian_l_Finger_A_01JntIKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_01JntIKGrp2/tasmanian_l_Finger_A_01JntIKGrp/tasmanian_l_Finger_A_01_01JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_02JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_02JntFKGrp2/tasmanian_l_Finger_A_02JntFKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_02JntFKGrp2/tasmanian_l_Finger_A_02JntFKGrp/tasmanian_l_Finger_A_02_01JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_02JntGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_02JntGrp2/tasmanian_l_Finger_A_02JntGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_02JntGrp2/tasmanian_l_Finger_A_02JntGrp/tasmanian_l_Finger_A_02_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_02JntIKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_02JntIKGrp2/tasmanian_l_Finger_A_02JntIKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_02JntIKGrp2/tasmanian_l_Finger_A_02JntIKGrp/tasmanian_l_Finger_A_02_01JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_03JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_03JntFKGrp2/tasmanian_l_Finger_A_03JntFKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_03JntFKGrp2/tasmanian_l_Finger_A_03JntFKGrp/tasmanian_l_Finger_A_03_01JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_03JntGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_03JntGrp2/tasmanian_l_Finger_A_03JntGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_03JntGrp2/tasmanian_l_Finger_A_03JntGrp/tasmanian_l_Finger_A_03_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_03JntIKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_03JntIKGrp2/tasmanian_l_Finger_A_03JntIKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_03JntIKGrp2/tasmanian_l_Finger_A_03JntIKGrp/tasmanian_l_Finger_A_03_01JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_04JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_04JntFKGrp2/tasmanian_l_Finger_A_04JntFKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_04JntFKGrp2/tasmanian_l_Finger_A_04JntFKGrp/tasmanian_l_Finger_A_04_01JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_04JntGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_04JntGrp2/tasmanian_l_Finger_A_04JntGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_04JntGrp2/tasmanian_l_Finger_A_04JntGrp/tasmanian_l_Finger_A_04_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_04JntIKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_04JntIKGrp2/tasmanian_l_Finger_A_04JntIKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_04JntIKGrp2/tasmanian_l_Finger_A_04JntIKGrp/tasmanian_l_Finger_A_04_01JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_05JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_05JntFKGrp2/tasmanian_l_Finger_A_05JntFKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_05JntFKGrp2/tasmanian_l_Finger_A_05JntFKGrp/tasmanian_l_Finger_A_05_01JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_05JntGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_05JntGrp2/tasmanian_l_Finger_A_05JntGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_05JntGrp2/tasmanian_l_Finger_A_05JntGrp/tasmanian_l_Finger_A_05_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_05JntIKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_05JntIKGrp2/tasmanian_l_Finger_A_05JntIKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_AGrp/tasmanian_l_Finger_A_ScaleGrp/tasmanian_l_Finger_A_05JntIKGrp2/tasmanian_l_Finger_A_05JntIKGrp/tasmanian_l_Finger_A_05_01JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_01JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_01JntFKGrp2/tasmanian_l_Finger_B_01JntFKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_01JntFKGrp2/tasmanian_l_Finger_B_01JntFKGrp/tasmanian_l_Finger_B_01_01JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_01JntGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_01JntGrp2/tasmanian_l_Finger_B_01JntGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_01JntGrp2/tasmanian_l_Finger_B_01JntGrp/tasmanian_l_Finger_B_01_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_01JntIKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_01JntIKGrp2/tasmanian_l_Finger_B_01JntIKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_01JntIKGrp2/tasmanian_l_Finger_B_01JntIKGrp/tasmanian_l_Finger_B_01_01JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_02JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_02JntFKGrp2/tasmanian_l_Finger_B_02JntFKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_02JntFKGrp2/tasmanian_l_Finger_B_02JntFKGrp/tasmanian_l_Finger_B_02_01JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_02JntGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_02JntGrp2/tasmanian_l_Finger_B_02JntGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_02JntGrp2/tasmanian_l_Finger_B_02JntGrp/tasmanian_l_Finger_B_02_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_02JntIKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_02JntIKGrp2/tasmanian_l_Finger_B_02JntIKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_02JntIKGrp2/tasmanian_l_Finger_B_02JntIKGrp/tasmanian_l_Finger_B_02_01JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_03JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_03JntFKGrp2/tasmanian_l_Finger_B_03JntFKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_03JntFKGrp2/tasmanian_l_Finger_B_03JntFKGrp/tasmanian_l_Finger_B_03_01JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_03JntGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_03JntGrp2/tasmanian_l_Finger_B_03JntGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_03JntGrp2/tasmanian_l_Finger_B_03JntGrp/tasmanian_l_Finger_B_03_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_03JntIKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_03JntIKGrp2/tasmanian_l_Finger_B_03JntIKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_03JntIKGrp2/tasmanian_l_Finger_B_03JntIKGrp/tasmanian_l_Finger_B_03_01JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_04JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_04JntFKGrp2/tasmanian_l_Finger_B_04JntFKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_04JntFKGrp2/tasmanian_l_Finger_B_04JntFKGrp/tasmanian_l_Finger_B_04_01JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_04JntGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_04JntGrp2/tasmanian_l_Finger_B_04JntGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_04JntGrp2/tasmanian_l_Finger_B_04JntGrp/tasmanian_l_Finger_B_04_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_04JntIKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_04JntIKGrp2/tasmanian_l_Finger_B_04JntIKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_04JntIKGrp2/tasmanian_l_Finger_B_04JntIKGrp/tasmanian_l_Finger_B_04_01JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_05JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_05JntFKGrp2/tasmanian_l_Finger_B_05JntFKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_05JntFKGrp2/tasmanian_l_Finger_B_05JntFKGrp/tasmanian_l_Finger_B_05_01JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_05JntGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_05JntGrp2/tasmanian_l_Finger_B_05JntGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_05JntGrp2/tasmanian_l_Finger_B_05JntGrp/tasmanian_l_Finger_B_05_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_05JntIKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_05JntIKGrp2/tasmanian_l_Finger_B_05JntIKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_Finger_BGrp/tasmanian_l_Finger_B_ScaleGrp/tasmanian_l_Finger_B_05JntIKGrp2/tasmanian_l_Finger_B_05JntIKGrp/tasmanian_l_Finger_B_05_01JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_AnkleFKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_AnkleFKCtrlGrp/tasmanian_l_FrontLeg_AnkleFKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_AnkleJntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_AnkleJntFKGrp2/tasmanian_l_FrontLeg_AnkleJntFKGrp1
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_AnkleJntFKGrp2/tasmanian_l_FrontLeg_AnkleJntFKGrp1/tasmanian_l_FrontLeg_AnkleJntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_AnkleJntFKGrp2/tasmanian_l_FrontLeg_AnkleJntFKGrp1/tasmanian_l_FrontLeg_AnkleJntFK/tasmanian_l_FrontLeg_BallJntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_AnkleJntFKGrp2/tasmanian_l_FrontLeg_AnkleJntFKGrp1/tasmanian_l_FrontLeg_AnkleJntFK/tasmanian_l_FrontLeg_BallJntFK/tasmanian_l_FrontLeg_ToeJntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_BallFKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_BallFKCtrlGrp/tasmanian_l_FrontLeg_BallFKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_FootIKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_FootIKCtrlGrp/tasmanian_l_FrontLeg_FootIKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_FootIKCtrlGrp/tasmanian_l_FrontLeg_ToeIKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_FootIKCtrlGrp/tasmanian_l_FrontLeg_ToeIKCtrlGrp/tasmanian_l_FrontLeg_ToeIKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_FootIKCtrlGrp/tasmanian_l_FrontLeg_ToeIKCtrlGrp/tasmanian_l_FrontLeg_ToeIKCtrl/tasmanian_l_FrontLeg_HeelIKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_FootIKCtrlGrp/tasmanian_l_FrontLeg_ToeIKCtrlGrp/tasmanian_l_FrontLeg_ToeIKCtrl/tasmanian_l_FrontLeg_HeelIKCtrlGrp/tasmanian_l_FrontLeg_HeelIKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_FootIKCtrlGrp/tasmanian_l_FrontLeg_ToeIKCtrlGrp/tasmanian_l_FrontLeg_ToeIKCtrl/tasmanian_l_FrontLeg_HeelIKCtrlGrp/tasmanian_l_FrontLeg_HeelIKCtrl/tasmanian_l_FrontLeg_HeelLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_FootIKCtrlGrp/tasmanian_l_FrontLeg_ToeIKCtrlGrp/tasmanian_l_FrontLeg_ToeIKCtrl/tasmanian_l_FrontLeg_HeelIKCtrlGrp/tasmanian_l_FrontLeg_HeelIKCtrl/tasmanian_l_FrontLeg_HeelLctr/tasmanian_l_FrontLeg_BallSwivelLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_FootIKCtrlGrp/tasmanian_l_FrontLeg_ToeIKCtrlGrp/tasmanian_l_FrontLeg_ToeIKCtrl/tasmanian_l_FrontLeg_HeelIKCtrlGrp/tasmanian_l_FrontLeg_HeelIKCtrl/tasmanian_l_FrontLeg_HeelLctr/tasmanian_l_FrontLeg_BallSwivelLctr/tasmanian_l_FrontLeg_FootRightTiltLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_FootIKCtrlGrp/tasmanian_l_FrontLeg_ToeIKCtrlGrp/tasmanian_l_FrontLeg_ToeIKCtrl/tasmanian_l_FrontLeg_HeelIKCtrlGrp/tasmanian_l_FrontLeg_HeelIKCtrl/tasmanian_l_FrontLeg_HeelLctr/tasmanian_l_FrontLeg_BallSwivelLctr/tasmanian_l_FrontLeg_FootRightTiltLctr/tasmanian_l_FrontLeg_FootLeftTiltLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_FootIKCtrlGrp/tasmanian_l_FrontLeg_ToeIKCtrlGrp/tasmanian_l_FrontLeg_ToeIKCtrl/tasmanian_l_FrontLeg_HeelIKCtrlGrp/tasmanian_l_FrontLeg_HeelIKCtrl/tasmanian_l_FrontLeg_HeelLctr/tasmanian_l_FrontLeg_BallSwivelLctr/tasmanian_l_FrontLeg_FootRightTiltLctr/tasmanian_l_FrontLeg_FootLeftTiltLctr/tasmanian_l_FrontLeg_FootBallPivotLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_FootIKCtrlGrp/tasmanian_l_FrontLeg_ToeIKCtrlGrp/tasmanian_l_FrontLeg_ToeIKCtrl/tasmanian_l_FrontLeg_HeelIKCtrlGrp/tasmanian_l_FrontLeg_HeelIKCtrl/tasmanian_l_FrontLeg_HeelLctr/tasmanian_l_FrontLeg_BallSwivelLctr/tasmanian_l_FrontLeg_FootRightTiltLctr/tasmanian_l_FrontLeg_FootLeftTiltLctr/tasmanian_l_FrontLeg_FootBallPivotLctr/tasmanian_l_FrontLeg_FootBallPivotLctr2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_HipFKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_HipFKCtrlGrp/tasmanian_l_FrontLeg_HipFKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_HipIKLockLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_HipIKLockLctr/tasmanian_l_FrontLeg_KneeIKLockLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_HipIKLockLctr/tasmanian_l_FrontLeg_KneeIKLockLctr/tasmanian_l_FrontLeg_AnkleIKLockLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_HipJnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_HipJnt/tasmanian_l_FrontLeg_KneeJnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_HipJnt/tasmanian_l_FrontLeg_KneeJnt/tasmanian_l_FrontLeg_AnkleJnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_HipJnt/tasmanian_l_FrontLeg_KneeJnt/tasmanian_l_FrontLeg_AnkleJnt/tasmanian_l_FrontLeg_BallJnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_HipJnt/tasmanian_l_FrontLeg_KneeJnt/tasmanian_l_FrontLeg_AnkleJnt/tasmanian_l_FrontLeg_BallJnt/tasmanian_l_FrontLeg_ToeJnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_HipJntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_HipJntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_HipJntIK/tasmanian_l_FrontLeg_KneeJntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_HipJntIK/tasmanian_l_FrontLeg_KneeJntIK/tasmanian_l_FrontLeg_AnkleJntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_HipJntIK/tasmanian_l_FrontLeg_KneeJntIK/tasmanian_l_FrontLeg_AnkleJntIK/tasmanian_l_FrontLeg_BallJntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_HipJntIK/tasmanian_l_FrontLeg_KneeJntIK/tasmanian_l_FrontLeg_AnkleJntIK/tasmanian_l_FrontLeg_BallJntIK/tasmanian_l_FrontLeg_ToeJntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_KneeFKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_KneeFKCtrlGrp/tasmanian_l_FrontLeg_KneeFKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_KneeIKCtrl_AnkleLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_KneeIKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_KneeIKCtrlGrp/tasmanian_l_FrontLeg_KneeIKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_KneeJntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_KneeJntFKGrp2/tasmanian_l_FrontLeg_KneeJntFKGrp1
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_KneeJntFKGrp2/tasmanian_l_FrontLeg_KneeJntFKGrp1/tasmanian_l_FrontLeg_KneeJntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_LegLengthOriginLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_LegLengthOriginLctr/tasmanian_l_FrontLeg_LegLengthEndLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_SwitchCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_SwitchCtrlGrp/tasmanian_l_FrontLeg_SwitchCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_ToeFKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_FrontLegGrp/tasmanian_l_FrontLeg_ScaleGrp/tasmanian_l_FrontLeg_ToeFKCtrlGrp/tasmanian_l_FrontLeg_ToeFKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_AnkleFKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_AnkleFKCtrlGrp/tasmanian_l_HindLeg_AnkleFKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_AnkleJntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_AnkleJntFKGrp2/tasmanian_l_HindLeg_AnkleJntFKGrp1
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_AnkleJntFKGrp2/tasmanian_l_HindLeg_AnkleJntFKGrp1/tasmanian_l_HindLeg_AnkleJntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_AnkleJntFKGrp2/tasmanian_l_HindLeg_AnkleJntFKGrp1/tasmanian_l_HindLeg_AnkleJntFK/tasmanian_l_HindLeg_BallJntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_AnkleJntFKGrp2/tasmanian_l_HindLeg_AnkleJntFKGrp1/tasmanian_l_HindLeg_AnkleJntFK/tasmanian_l_HindLeg_BallJntFK/tasmanian_l_HindLeg_ToeJntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_BallFKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_BallFKCtrlGrp/tasmanian_l_HindLeg_BallFKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_FootIKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_FootIKCtrlGrp/tasmanian_l_HindLeg_FootIKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_FootIKCtrlGrp/tasmanian_l_HindLeg_ToeIKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_FootIKCtrlGrp/tasmanian_l_HindLeg_ToeIKCtrlGrp/tasmanian_l_HindLeg_ToeIKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_FootIKCtrlGrp/tasmanian_l_HindLeg_ToeIKCtrlGrp/tasmanian_l_HindLeg_ToeIKCtrl/tasmanian_l_HindLeg_HeelIKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_FootIKCtrlGrp/tasmanian_l_HindLeg_ToeIKCtrlGrp/tasmanian_l_HindLeg_ToeIKCtrl/tasmanian_l_HindLeg_HeelIKCtrlGrp/tasmanian_l_HindLeg_HeelIKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_FootIKCtrlGrp/tasmanian_l_HindLeg_ToeIKCtrlGrp/tasmanian_l_HindLeg_ToeIKCtrl/tasmanian_l_HindLeg_HeelIKCtrlGrp/tasmanian_l_HindLeg_HeelIKCtrl/tasmanian_l_HindLeg_HeelLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_FootIKCtrlGrp/tasmanian_l_HindLeg_ToeIKCtrlGrp/tasmanian_l_HindLeg_ToeIKCtrl/tasmanian_l_HindLeg_HeelIKCtrlGrp/tasmanian_l_HindLeg_HeelIKCtrl/tasmanian_l_HindLeg_HeelLctr/tasmanian_l_HindLeg_BallSwivelLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_FootIKCtrlGrp/tasmanian_l_HindLeg_ToeIKCtrlGrp/tasmanian_l_HindLeg_ToeIKCtrl/tasmanian_l_HindLeg_HeelIKCtrlGrp/tasmanian_l_HindLeg_HeelIKCtrl/tasmanian_l_HindLeg_HeelLctr/tasmanian_l_HindLeg_BallSwivelLctr/tasmanian_l_HindLeg_FootRightTiltLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_FootIKCtrlGrp/tasmanian_l_HindLeg_ToeIKCtrlGrp/tasmanian_l_HindLeg_ToeIKCtrl/tasmanian_l_HindLeg_HeelIKCtrlGrp/tasmanian_l_HindLeg_HeelIKCtrl/tasmanian_l_HindLeg_HeelLctr/tasmanian_l_HindLeg_BallSwivelLctr/tasmanian_l_HindLeg_FootRightTiltLctr/tasmanian_l_HindLeg_FootLeftTiltLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_FootIKCtrlGrp/tasmanian_l_HindLeg_ToeIKCtrlGrp/tasmanian_l_HindLeg_ToeIKCtrl/tasmanian_l_HindLeg_HeelIKCtrlGrp/tasmanian_l_HindLeg_HeelIKCtrl/tasmanian_l_HindLeg_HeelLctr/tasmanian_l_HindLeg_BallSwivelLctr/tasmanian_l_HindLeg_FootRightTiltLctr/tasmanian_l_HindLeg_FootLeftTiltLctr/tasmanian_l_HindLeg_FootBallPivotLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_FootIKCtrlGrp/tasmanian_l_HindLeg_ToeIKCtrlGrp/tasmanian_l_HindLeg_ToeIKCtrl/tasmanian_l_HindLeg_HeelIKCtrlGrp/tasmanian_l_HindLeg_HeelIKCtrl/tasmanian_l_HindLeg_HeelLctr/tasmanian_l_HindLeg_BallSwivelLctr/tasmanian_l_HindLeg_FootRightTiltLctr/tasmanian_l_HindLeg_FootLeftTiltLctr/tasmanian_l_HindLeg_FootBallPivotLctr/tasmanian_l_HindLeg_LowerLegIKCtrlGrp2_LctrOffset
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_FullLegLengthAimLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_FullLegLengthAimLctr/tasmanian_l_HindLeg_FullLegLengthEndLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_HipFKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_HipFKCtrlGrp/tasmanian_l_HindLeg_HipFKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_HipIKLockLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_HipIKLockLctr/tasmanian_l_HindLeg_KneeIKLockLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_HipIKLockLctr/tasmanian_l_HindLeg_KneeIKLockLctr/tasmanian_l_HindLeg_AnkleIKLockLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_HipIKLockLctr/tasmanian_l_HindLeg_LowerKneeIKOffsetLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_HipJnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_HipJnt/tasmanian_l_HindLeg_Knee1Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_HipJnt/tasmanian_l_HindLeg_Knee1Jnt/tasmanian_l_HindLeg_Knee2Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_HipJnt/tasmanian_l_HindLeg_Knee1Jnt/tasmanian_l_HindLeg_Knee2Jnt/tasmanian_l_HindLeg_AnkleJnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_HipJnt/tasmanian_l_HindLeg_Knee1Jnt/tasmanian_l_HindLeg_Knee2Jnt/tasmanian_l_HindLeg_AnkleJnt/tasmanian_l_HindLeg_BallJnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_HipJnt/tasmanian_l_HindLeg_Knee1Jnt/tasmanian_l_HindLeg_Knee2Jnt/tasmanian_l_HindLeg_AnkleJnt/tasmanian_l_HindLeg_BallJnt/tasmanian_l_HindLeg_ToeJnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_HipJntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_HipJntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_HipJntIK/tasmanian_l_HindLeg_Knee1JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_HipJntIK/tasmanian_l_HindLeg_Knee1JntIK/tasmanian_l_HindLeg_Knee2JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_HipJntIK/tasmanian_l_HindLeg_Knee1JntIK/tasmanian_l_HindLeg_Knee2JntIK/tasmanian_l_HindLeg_AnkleJntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_HipJntIK/tasmanian_l_HindLeg_Knee1JntIK/tasmanian_l_HindLeg_Knee2JntIK/tasmanian_l_HindLeg_AnkleJntIK/tasmanian_l_HindLeg_BallJntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_HipJntIK/tasmanian_l_HindLeg_Knee1JntIK/tasmanian_l_HindLeg_Knee2JntIK/tasmanian_l_HindLeg_AnkleJntIK/tasmanian_l_HindLeg_BallJntIK/tasmanian_l_HindLeg_ToeJntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_Knee1FKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_Knee1FKCtrlGrp/tasmanian_l_HindLeg_Knee1FKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_Knee1JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_Knee1JntFKGrp2/tasmanian_l_HindLeg_Knee1JntFKGrp1
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_Knee1JntFKGrp2/tasmanian_l_HindLeg_Knee1JntFKGrp1/tasmanian_l_HindLeg_Knee1JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_Knee2FKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_Knee2FKCtrlGrp/tasmanian_l_HindLeg_Knee2FKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_Knee2JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_Knee2JntFKGrp2/tasmanian_l_HindLeg_Knee2JntFKGrp1
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_Knee2JntFKGrp2/tasmanian_l_HindLeg_Knee2JntFKGrp1/tasmanian_l_HindLeg_Knee2JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_KneeIKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_KneeIKCtrlGrp/tasmanian_l_HindLeg_KneeIKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_LegLengthOriginLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_LegLengthOriginLctr/tasmanian_l_HindLeg_LegLengthEndLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_LowerLegIKCtrlGrp3
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_LowerLegIKCtrlGrp3/tasmanian_l_HindLeg_LowerLegIKCtrlGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_LowerLegIKCtrlGrp3/tasmanian_l_HindLeg_LowerLegIKCtrlGrp2/tasmanian_l_HindLeg_LowerLegIKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_LowerLegIKCtrlGrp3/tasmanian_l_HindLeg_LowerLegIKCtrlGrp2/tasmanian_l_HindLeg_LowerLegIKCtrlGrp/tasmanian_l_HindLeg_LowerLegIKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_LowerLegIKCtrlGrp3/tasmanian_l_HindLeg_LowerLegIKCtrlGrp2/tasmanian_l_HindLeg_LowerLegIKCtrlGrp/tasmanian_l_HindLeg_LowerLegIKCtrl/tasmanian_l_HindLeg_LowerLegIKCLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_SwitchCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_SwitchCtrlGrp/tasmanian_l_HindLeg_SwitchCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_ToeFKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_l_HindLegGrp/tasmanian_l_HindLeg_ScaleGrp/tasmanian_l_HindLeg_ToeFKCtrlGrp/tasmanian_l_HindLeg_ToeFKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_NeckGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_NeckGrp/tasmanian_Neck_LengthCurve
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_NeckGrp/tasmanian_Neck_ScaleGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_NeckGrp/tasmanian_Neck_ScaleGrp/tasmanian_Neck
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_NeckGrp/tasmanian_Neck_ScaleGrp/tasmanian_Neck/tasmanian_Neck_MidIKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_NeckGrp/tasmanian_Neck_ScaleGrp/tasmanian_Neck/tasmanian_Neck_MidIKCtrlGrp/tasmanian_Neck_MidIKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_NeckGrp/tasmanian_Neck_ScaleGrp/tasmanian_Neck/tasmanian_Neck_MidIKCtrlGrp/tasmanian_Neck_MidIKCtrl/tasmanian_Neck_LengthClstr02
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_NeckGrp/tasmanian_Neck_ScaleGrp/tasmanian_Neck/tasmanian_Neck_TopIKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_NeckGrp/tasmanian_Neck_ScaleGrp/tasmanian_Neck/tasmanian_Neck_TopIKCtrlGrp/tasmanian_Neck_TopIKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_NeckGrp/tasmanian_Neck_ScaleGrp/tasmanian_Neck/tasmanian_Neck_TopIKCtrlGrp/tasmanian_Neck_TopIKCtrl/tasmanian_Neck_LengthClstr03
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_NeckGrp/tasmanian_Neck_ScaleGrp/tasmanian_Neck_01CurveCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_NeckGrp/tasmanian_Neck_ScaleGrp/tasmanian_Neck_01CurveCtrlGrp/tasmanian_Neck_01CurveCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_NeckGrp/tasmanian_Neck_ScaleGrp/tasmanian_Neck_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_NeckGrp/tasmanian_Neck_ScaleGrp/tasmanian_Neck_02CurveCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_NeckGrp/tasmanian_Neck_ScaleGrp/tasmanian_Neck_02CurveCtrlGrp/tasmanian_Neck_02CurveCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_NeckGrp/tasmanian_Neck_ScaleGrp/tasmanian_Neck_02Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_NeckGrp/tasmanian_Neck_ScaleGrp/tasmanian_Neck_Btm01JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_NeckGrp/tasmanian_Neck_ScaleGrp/tasmanian_Neck_LengthClstr01
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_NeckGrp/tasmanian_Neck_ScaleGrp/tasmanian_Neck_MidJntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_NeckGrp/tasmanian_Neck_ScaleGrp/tasmanian_Neck_TopJnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_NeckGrp/tasmanian_Neck_ScaleGrp/tasmanian_Neck_TopJntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_ClavicleGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_ClavicleGrp/tasmanian_r_Clavicle_ScaleGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_ClavicleGrp/tasmanian_r_Clavicle_ScaleGrp/tasmanian_r_Clavicle_01JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_ClavicleGrp/tasmanian_r_Clavicle_ScaleGrp/tasmanian_r_Clavicle_01JntFKGrp2/tasmanian_r_Clavicle_01JntFKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_ClavicleGrp/tasmanian_r_Clavicle_ScaleGrp/tasmanian_r_Clavicle_01JntFKGrp2/tasmanian_r_Clavicle_01JntFKGrp/tasmanian_r_Clavicle_01_01JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_ClavicleGrp/tasmanian_r_Clavicle_ScaleGrp/tasmanian_r_Clavicle_01JntGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_ClavicleGrp/tasmanian_r_Clavicle_ScaleGrp/tasmanian_r_Clavicle_01JntGrp2/tasmanian_r_Clavicle_01JntGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_ClavicleGrp/tasmanian_r_Clavicle_ScaleGrp/tasmanian_r_Clavicle_01JntGrp2/tasmanian_r_Clavicle_01JntGrp/tasmanian_r_Clavicle_01_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_ClavicleGrp/tasmanian_r_Clavicle_ScaleGrp/tasmanian_r_Clavicle_01JntIKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_ClavicleGrp/tasmanian_r_Clavicle_ScaleGrp/tasmanian_r_Clavicle_01JntIKGrp2/tasmanian_r_Clavicle_01JntIKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_ClavicleGrp/tasmanian_r_Clavicle_ScaleGrp/tasmanian_r_Clavicle_01JntIKGrp2/tasmanian_r_Clavicle_01JntIKGrp/tasmanian_r_Clavicle_01_01JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_EyeGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_EyeGrp/tasmanian_r_Eye_ScaleGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_EyeGrp/tasmanian_r_Eye_ScaleGrp/tasmanian_r_Eye_01Grp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_EyeGrp/tasmanian_r_Eye_ScaleGrp/tasmanian_r_Eye_01Grp2/tasmanian_r_Eye_01Grp1
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_EyeGrp/tasmanian_r_Eye_ScaleGrp/tasmanian_r_Eye_01Grp2/tasmanian_r_Eye_01Grp1/tasmanian_r_Eye_01Ctrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_EyeGrp/tasmanian_r_Eye_ScaleGrp/tasmanian_r_Eye_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_01JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_01JntFKGrp2/tasmanian_r_Finger_A_01JntFKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_01JntFKGrp2/tasmanian_r_Finger_A_01JntFKGrp/tasmanian_r_Finger_A_01_01JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_01JntGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_01JntGrp2/tasmanian_r_Finger_A_01JntGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_01JntGrp2/tasmanian_r_Finger_A_01JntGrp/tasmanian_r_Finger_A_01_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_01JntIKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_01JntIKGrp2/tasmanian_r_Finger_A_01JntIKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_01JntIKGrp2/tasmanian_r_Finger_A_01JntIKGrp/tasmanian_r_Finger_A_01_01JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_02JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_02JntFKGrp2/tasmanian_r_Finger_A_02JntFKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_02JntFKGrp2/tasmanian_r_Finger_A_02JntFKGrp/tasmanian_r_Finger_A_02_01JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_02JntGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_02JntGrp2/tasmanian_r_Finger_A_02JntGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_02JntGrp2/tasmanian_r_Finger_A_02JntGrp/tasmanian_r_Finger_A_02_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_02JntIKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_02JntIKGrp2/tasmanian_r_Finger_A_02JntIKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_02JntIKGrp2/tasmanian_r_Finger_A_02JntIKGrp/tasmanian_r_Finger_A_02_01JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_03JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_03JntFKGrp2/tasmanian_r_Finger_A_03JntFKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_03JntFKGrp2/tasmanian_r_Finger_A_03JntFKGrp/tasmanian_r_Finger_A_03_01JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_03JntGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_03JntGrp2/tasmanian_r_Finger_A_03JntGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_03JntGrp2/tasmanian_r_Finger_A_03JntGrp/tasmanian_r_Finger_A_03_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_03JntIKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_03JntIKGrp2/tasmanian_r_Finger_A_03JntIKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_03JntIKGrp2/tasmanian_r_Finger_A_03JntIKGrp/tasmanian_r_Finger_A_03_01JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_04JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_04JntFKGrp2/tasmanian_r_Finger_A_04JntFKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_04JntFKGrp2/tasmanian_r_Finger_A_04JntFKGrp/tasmanian_r_Finger_A_04_01JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_04JntGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_04JntGrp2/tasmanian_r_Finger_A_04JntGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_04JntGrp2/tasmanian_r_Finger_A_04JntGrp/tasmanian_r_Finger_A_04_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_04JntIKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_04JntIKGrp2/tasmanian_r_Finger_A_04JntIKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_04JntIKGrp2/tasmanian_r_Finger_A_04JntIKGrp/tasmanian_r_Finger_A_04_01JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_05JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_05JntFKGrp2/tasmanian_r_Finger_A_05JntFKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_05JntFKGrp2/tasmanian_r_Finger_A_05JntFKGrp/tasmanian_r_Finger_A_05_01JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_05JntGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_05JntGrp2/tasmanian_r_Finger_A_05JntGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_05JntGrp2/tasmanian_r_Finger_A_05JntGrp/tasmanian_r_Finger_A_05_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_05JntIKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_05JntIKGrp2/tasmanian_r_Finger_A_05JntIKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_AGrp/tasmanian_r_Finger_A_ScaleGrp/tasmanian_r_Finger_A_05JntIKGrp2/tasmanian_r_Finger_A_05JntIKGrp/tasmanian_r_Finger_A_05_01JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_01JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_01JntFKGrp2/tasmanian_r_Finger_B_01JntFKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_01JntFKGrp2/tasmanian_r_Finger_B_01JntFKGrp/tasmanian_r_Finger_B_01_01JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_01JntGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_01JntGrp2/tasmanian_r_Finger_B_01JntGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_01JntGrp2/tasmanian_r_Finger_B_01JntGrp/tasmanian_r_Finger_B_01_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_01JntIKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_01JntIKGrp2/tasmanian_r_Finger_B_01JntIKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_01JntIKGrp2/tasmanian_r_Finger_B_01JntIKGrp/tasmanian_r_Finger_B_01_01JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_02JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_02JntFKGrp2/tasmanian_r_Finger_B_02JntFKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_02JntFKGrp2/tasmanian_r_Finger_B_02JntFKGrp/tasmanian_r_Finger_B_02_01JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_02JntGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_02JntGrp2/tasmanian_r_Finger_B_02JntGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_02JntGrp2/tasmanian_r_Finger_B_02JntGrp/tasmanian_r_Finger_B_02_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_02JntIKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_02JntIKGrp2/tasmanian_r_Finger_B_02JntIKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_02JntIKGrp2/tasmanian_r_Finger_B_02JntIKGrp/tasmanian_r_Finger_B_02_01JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_03JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_03JntFKGrp2/tasmanian_r_Finger_B_03JntFKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_03JntFKGrp2/tasmanian_r_Finger_B_03JntFKGrp/tasmanian_r_Finger_B_03_01JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_03JntGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_03JntGrp2/tasmanian_r_Finger_B_03JntGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_03JntGrp2/tasmanian_r_Finger_B_03JntGrp/tasmanian_r_Finger_B_03_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_03JntIKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_03JntIKGrp2/tasmanian_r_Finger_B_03JntIKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_03JntIKGrp2/tasmanian_r_Finger_B_03JntIKGrp/tasmanian_r_Finger_B_03_01JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_04JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_04JntFKGrp2/tasmanian_r_Finger_B_04JntFKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_04JntFKGrp2/tasmanian_r_Finger_B_04JntFKGrp/tasmanian_r_Finger_B_04_01JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_04JntGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_04JntGrp2/tasmanian_r_Finger_B_04JntGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_04JntGrp2/tasmanian_r_Finger_B_04JntGrp/tasmanian_r_Finger_B_04_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_04JntIKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_04JntIKGrp2/tasmanian_r_Finger_B_04JntIKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_04JntIKGrp2/tasmanian_r_Finger_B_04JntIKGrp/tasmanian_r_Finger_B_04_01JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_05JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_05JntFKGrp2/tasmanian_r_Finger_B_05JntFKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_05JntFKGrp2/tasmanian_r_Finger_B_05JntFKGrp/tasmanian_r_Finger_B_05_01JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_05JntGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_05JntGrp2/tasmanian_r_Finger_B_05JntGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_05JntGrp2/tasmanian_r_Finger_B_05JntGrp/tasmanian_r_Finger_B_05_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_05JntIKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_05JntIKGrp2/tasmanian_r_Finger_B_05JntIKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_Finger_BGrp/tasmanian_r_Finger_B_ScaleGrp/tasmanian_r_Finger_B_05JntIKGrp2/tasmanian_r_Finger_B_05JntIKGrp/tasmanian_r_Finger_B_05_01JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_AnkleFKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_AnkleFKCtrlGrp/tasmanian_r_FrontLeg_AnkleFKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_AnkleJntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_AnkleJntFKGrp2/tasmanian_r_FrontLeg_AnkleJntFKGrp1
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_AnkleJntFKGrp2/tasmanian_r_FrontLeg_AnkleJntFKGrp1/tasmanian_r_FrontLeg_AnkleJntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_AnkleJntFKGrp2/tasmanian_r_FrontLeg_AnkleJntFKGrp1/tasmanian_r_FrontLeg_AnkleJntFK/tasmanian_r_FrontLeg_BallJntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_AnkleJntFKGrp2/tasmanian_r_FrontLeg_AnkleJntFKGrp1/tasmanian_r_FrontLeg_AnkleJntFK/tasmanian_r_FrontLeg_BallJntFK/tasmanian_r_FrontLeg_ToeJntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_BallFKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_BallFKCtrlGrp/tasmanian_r_FrontLeg_BallFKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_FootIKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_FootIKCtrlGrp/tasmanian_r_FrontLeg_FootIKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_FootIKCtrlGrp/tasmanian_r_FrontLeg_ToeIKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_FootIKCtrlGrp/tasmanian_r_FrontLeg_ToeIKCtrlGrp/tasmanian_r_FrontLeg_ToeIKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_FootIKCtrlGrp/tasmanian_r_FrontLeg_ToeIKCtrlGrp/tasmanian_r_FrontLeg_ToeIKCtrl/tasmanian_r_FrontLeg_HeelIKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_FootIKCtrlGrp/tasmanian_r_FrontLeg_ToeIKCtrlGrp/tasmanian_r_FrontLeg_ToeIKCtrl/tasmanian_r_FrontLeg_HeelIKCtrlGrp/tasmanian_r_FrontLeg_HeelIKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_FootIKCtrlGrp/tasmanian_r_FrontLeg_ToeIKCtrlGrp/tasmanian_r_FrontLeg_ToeIKCtrl/tasmanian_r_FrontLeg_HeelIKCtrlGrp/tasmanian_r_FrontLeg_HeelIKCtrl/tasmanian_r_FrontLeg_HeelLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_FootIKCtrlGrp/tasmanian_r_FrontLeg_ToeIKCtrlGrp/tasmanian_r_FrontLeg_ToeIKCtrl/tasmanian_r_FrontLeg_HeelIKCtrlGrp/tasmanian_r_FrontLeg_HeelIKCtrl/tasmanian_r_FrontLeg_HeelLctr/tasmanian_r_FrontLeg_BallSwivelLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_FootIKCtrlGrp/tasmanian_r_FrontLeg_ToeIKCtrlGrp/tasmanian_r_FrontLeg_ToeIKCtrl/tasmanian_r_FrontLeg_HeelIKCtrlGrp/tasmanian_r_FrontLeg_HeelIKCtrl/tasmanian_r_FrontLeg_HeelLctr/tasmanian_r_FrontLeg_BallSwivelLctr/tasmanian_r_FrontLeg_FootRightTiltLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_FootIKCtrlGrp/tasmanian_r_FrontLeg_ToeIKCtrlGrp/tasmanian_r_FrontLeg_ToeIKCtrl/tasmanian_r_FrontLeg_HeelIKCtrlGrp/tasmanian_r_FrontLeg_HeelIKCtrl/tasmanian_r_FrontLeg_HeelLctr/tasmanian_r_FrontLeg_BallSwivelLctr/tasmanian_r_FrontLeg_FootRightTiltLctr/tasmanian_r_FrontLeg_FootLeftTiltLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_FootIKCtrlGrp/tasmanian_r_FrontLeg_ToeIKCtrlGrp/tasmanian_r_FrontLeg_ToeIKCtrl/tasmanian_r_FrontLeg_HeelIKCtrlGrp/tasmanian_r_FrontLeg_HeelIKCtrl/tasmanian_r_FrontLeg_HeelLctr/tasmanian_r_FrontLeg_BallSwivelLctr/tasmanian_r_FrontLeg_FootRightTiltLctr/tasmanian_r_FrontLeg_FootLeftTiltLctr/tasmanian_r_FrontLeg_FootBallPivotLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_FootIKCtrlGrp/tasmanian_r_FrontLeg_ToeIKCtrlGrp/tasmanian_r_FrontLeg_ToeIKCtrl/tasmanian_r_FrontLeg_HeelIKCtrlGrp/tasmanian_r_FrontLeg_HeelIKCtrl/tasmanian_r_FrontLeg_HeelLctr/tasmanian_r_FrontLeg_BallSwivelLctr/tasmanian_r_FrontLeg_FootRightTiltLctr/tasmanian_r_FrontLeg_FootLeftTiltLctr/tasmanian_r_FrontLeg_FootBallPivotLctr/tasmanian_r_FrontLeg_FootBallPivotLctr2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_HipFKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_HipFKCtrlGrp/tasmanian_r_FrontLeg_HipFKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_HipIKLockLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_HipIKLockLctr/tasmanian_r_FrontLeg_KneeIKLockLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_HipIKLockLctr/tasmanian_r_FrontLeg_KneeIKLockLctr/tasmanian_r_FrontLeg_AnkleIKLockLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_HipJnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_HipJnt/tasmanian_r_FrontLeg_KneeJnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_HipJnt/tasmanian_r_FrontLeg_KneeJnt/tasmanian_r_FrontLeg_AnkleJnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_HipJnt/tasmanian_r_FrontLeg_KneeJnt/tasmanian_r_FrontLeg_AnkleJnt/tasmanian_r_FrontLeg_BallJnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_HipJnt/tasmanian_r_FrontLeg_KneeJnt/tasmanian_r_FrontLeg_AnkleJnt/tasmanian_r_FrontLeg_BallJnt/tasmanian_r_FrontLeg_ToeJnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_HipJntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_HipJntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_HipJntIK/tasmanian_r_FrontLeg_KneeJntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_HipJntIK/tasmanian_r_FrontLeg_KneeJntIK/tasmanian_r_FrontLeg_AnkleJntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_HipJntIK/tasmanian_r_FrontLeg_KneeJntIK/tasmanian_r_FrontLeg_AnkleJntIK/tasmanian_r_FrontLeg_BallJntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_HipJntIK/tasmanian_r_FrontLeg_KneeJntIK/tasmanian_r_FrontLeg_AnkleJntIK/tasmanian_r_FrontLeg_BallJntIK/tasmanian_r_FrontLeg_ToeJntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_KneeFKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_KneeFKCtrlGrp/tasmanian_r_FrontLeg_KneeFKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_KneeIKCtrl_AnkleLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_KneeIKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_KneeIKCtrlGrp/tasmanian_r_FrontLeg_KneeIKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_KneeJntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_KneeJntFKGrp2/tasmanian_r_FrontLeg_KneeJntFKGrp1
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_KneeJntFKGrp2/tasmanian_r_FrontLeg_KneeJntFKGrp1/tasmanian_r_FrontLeg_KneeJntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_LegLengthOriginLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_LegLengthOriginLctr/tasmanian_r_FrontLeg_LegLengthEndLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_SwitchCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_SwitchCtrlGrp/tasmanian_r_FrontLeg_SwitchCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_ToeFKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_FrontLegGrp/tasmanian_r_FrontLeg_ScaleGrp/tasmanian_r_FrontLeg_ToeFKCtrlGrp/tasmanian_r_FrontLeg_ToeFKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_AnkleFKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_AnkleFKCtrlGrp/tasmanian_r_HindLeg_AnkleFKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_AnkleJntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_AnkleJntFKGrp2/tasmanian_r_HindLeg_AnkleJntFKGrp1
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_AnkleJntFKGrp2/tasmanian_r_HindLeg_AnkleJntFKGrp1/tasmanian_r_HindLeg_AnkleJntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_AnkleJntFKGrp2/tasmanian_r_HindLeg_AnkleJntFKGrp1/tasmanian_r_HindLeg_AnkleJntFK/tasmanian_r_HindLeg_BallJntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_AnkleJntFKGrp2/tasmanian_r_HindLeg_AnkleJntFKGrp1/tasmanian_r_HindLeg_AnkleJntFK/tasmanian_r_HindLeg_BallJntFK/tasmanian_r_HindLeg_ToeJntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_BallFKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_BallFKCtrlGrp/tasmanian_r_HindLeg_BallFKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_FootIKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_FootIKCtrlGrp/tasmanian_r_HindLeg_FootIKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_FootIKCtrlGrp/tasmanian_r_HindLeg_ToeIKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_FootIKCtrlGrp/tasmanian_r_HindLeg_ToeIKCtrlGrp/tasmanian_r_HindLeg_ToeIKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_FootIKCtrlGrp/tasmanian_r_HindLeg_ToeIKCtrlGrp/tasmanian_r_HindLeg_ToeIKCtrl/tasmanian_r_HindLeg_HeelIKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_FootIKCtrlGrp/tasmanian_r_HindLeg_ToeIKCtrlGrp/tasmanian_r_HindLeg_ToeIKCtrl/tasmanian_r_HindLeg_HeelIKCtrlGrp/tasmanian_r_HindLeg_HeelIKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_FootIKCtrlGrp/tasmanian_r_HindLeg_ToeIKCtrlGrp/tasmanian_r_HindLeg_ToeIKCtrl/tasmanian_r_HindLeg_HeelIKCtrlGrp/tasmanian_r_HindLeg_HeelIKCtrl/tasmanian_r_HindLeg_HeelLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_FootIKCtrlGrp/tasmanian_r_HindLeg_ToeIKCtrlGrp/tasmanian_r_HindLeg_ToeIKCtrl/tasmanian_r_HindLeg_HeelIKCtrlGrp/tasmanian_r_HindLeg_HeelIKCtrl/tasmanian_r_HindLeg_HeelLctr/tasmanian_r_HindLeg_BallSwivelLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_FootIKCtrlGrp/tasmanian_r_HindLeg_ToeIKCtrlGrp/tasmanian_r_HindLeg_ToeIKCtrl/tasmanian_r_HindLeg_HeelIKCtrlGrp/tasmanian_r_HindLeg_HeelIKCtrl/tasmanian_r_HindLeg_HeelLctr/tasmanian_r_HindLeg_BallSwivelLctr/tasmanian_r_HindLeg_FootRightTiltLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_FootIKCtrlGrp/tasmanian_r_HindLeg_ToeIKCtrlGrp/tasmanian_r_HindLeg_ToeIKCtrl/tasmanian_r_HindLeg_HeelIKCtrlGrp/tasmanian_r_HindLeg_HeelIKCtrl/tasmanian_r_HindLeg_HeelLctr/tasmanian_r_HindLeg_BallSwivelLctr/tasmanian_r_HindLeg_FootRightTiltLctr/tasmanian_r_HindLeg_FootLeftTiltLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_FootIKCtrlGrp/tasmanian_r_HindLeg_ToeIKCtrlGrp/tasmanian_r_HindLeg_ToeIKCtrl/tasmanian_r_HindLeg_HeelIKCtrlGrp/tasmanian_r_HindLeg_HeelIKCtrl/tasmanian_r_HindLeg_HeelLctr/tasmanian_r_HindLeg_BallSwivelLctr/tasmanian_r_HindLeg_FootRightTiltLctr/tasmanian_r_HindLeg_FootLeftTiltLctr/tasmanian_r_HindLeg_FootBallPivotLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_FootIKCtrlGrp/tasmanian_r_HindLeg_ToeIKCtrlGrp/tasmanian_r_HindLeg_ToeIKCtrl/tasmanian_r_HindLeg_HeelIKCtrlGrp/tasmanian_r_HindLeg_HeelIKCtrl/tasmanian_r_HindLeg_HeelLctr/tasmanian_r_HindLeg_BallSwivelLctr/tasmanian_r_HindLeg_FootRightTiltLctr/tasmanian_r_HindLeg_FootLeftTiltLctr/tasmanian_r_HindLeg_FootBallPivotLctr/tasmanian_r_HindLeg_LowerLegIKCtrlGrp2_LctrOffset
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_FullLegLengthAimLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_FullLegLengthAimLctr/tasmanian_r_HindLeg_FullLegLengthEndLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_HipFKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_HipFKCtrlGrp/tasmanian_r_HindLeg_HipFKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_HipIKLockLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_HipIKLockLctr/tasmanian_r_HindLeg_KneeIKLockLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_HipIKLockLctr/tasmanian_r_HindLeg_KneeIKLockLctr/tasmanian_r_HindLeg_AnkleIKLockLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_HipIKLockLctr/tasmanian_r_HindLeg_LowerKneeIKOffsetLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_HipJnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_HipJnt/tasmanian_r_HindLeg_Knee1Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_HipJnt/tasmanian_r_HindLeg_Knee1Jnt/tasmanian_r_HindLeg_Knee2Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_HipJnt/tasmanian_r_HindLeg_Knee1Jnt/tasmanian_r_HindLeg_Knee2Jnt/tasmanian_r_HindLeg_AnkleJnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_HipJnt/tasmanian_r_HindLeg_Knee1Jnt/tasmanian_r_HindLeg_Knee2Jnt/tasmanian_r_HindLeg_AnkleJnt/tasmanian_r_HindLeg_BallJnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_HipJnt/tasmanian_r_HindLeg_Knee1Jnt/tasmanian_r_HindLeg_Knee2Jnt/tasmanian_r_HindLeg_AnkleJnt/tasmanian_r_HindLeg_BallJnt/tasmanian_r_HindLeg_ToeJnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_HipJntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_HipJntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_HipJntIK/tasmanian_r_HindLeg_Knee1JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_HipJntIK/tasmanian_r_HindLeg_Knee1JntIK/tasmanian_r_HindLeg_Knee2JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_HipJntIK/tasmanian_r_HindLeg_Knee1JntIK/tasmanian_r_HindLeg_Knee2JntIK/tasmanian_r_HindLeg_AnkleJntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_HipJntIK/tasmanian_r_HindLeg_Knee1JntIK/tasmanian_r_HindLeg_Knee2JntIK/tasmanian_r_HindLeg_AnkleJntIK/tasmanian_r_HindLeg_BallJntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_HipJntIK/tasmanian_r_HindLeg_Knee1JntIK/tasmanian_r_HindLeg_Knee2JntIK/tasmanian_r_HindLeg_AnkleJntIK/tasmanian_r_HindLeg_BallJntIK/tasmanian_r_HindLeg_ToeJntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_Knee1FKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_Knee1FKCtrlGrp/tasmanian_r_HindLeg_Knee1FKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_Knee1JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_Knee1JntFKGrp2/tasmanian_r_HindLeg_Knee1JntFKGrp1
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_Knee1JntFKGrp2/tasmanian_r_HindLeg_Knee1JntFKGrp1/tasmanian_r_HindLeg_Knee1JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_Knee2FKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_Knee2FKCtrlGrp/tasmanian_r_HindLeg_Knee2FKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_Knee2JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_Knee2JntFKGrp2/tasmanian_r_HindLeg_Knee2JntFKGrp1
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_Knee2JntFKGrp2/tasmanian_r_HindLeg_Knee2JntFKGrp1/tasmanian_r_HindLeg_Knee2JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_KneeIKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_KneeIKCtrlGrp/tasmanian_r_HindLeg_KneeIKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_LegLengthOriginLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_LegLengthOriginLctr/tasmanian_r_HindLeg_LegLengthEndLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_LowerLegIKCtrlGrp3
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_LowerLegIKCtrlGrp3/tasmanian_r_HindLeg_LowerLegIKCtrlGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_LowerLegIKCtrlGrp3/tasmanian_r_HindLeg_LowerLegIKCtrlGrp2/tasmanian_r_HindLeg_LowerLegIKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_LowerLegIKCtrlGrp3/tasmanian_r_HindLeg_LowerLegIKCtrlGrp2/tasmanian_r_HindLeg_LowerLegIKCtrlGrp/tasmanian_r_HindLeg_LowerLegIKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_LowerLegIKCtrlGrp3/tasmanian_r_HindLeg_LowerLegIKCtrlGrp2/tasmanian_r_HindLeg_LowerLegIKCtrlGrp/tasmanian_r_HindLeg_LowerLegIKCtrl/tasmanian_r_HindLeg_LowerLegIKCLctr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_SwitchCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_SwitchCtrlGrp/tasmanian_r_HindLeg_SwitchCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_ToeFKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_r_HindLegGrp/tasmanian_r_HindLeg_ScaleGrp/tasmanian_r_HindLeg_ToeFKCtrlGrp/tasmanian_r_HindLeg_ToeFKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_ROOTGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_ROOTGrp/tasmanian_ROOTParentCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_ROOTGrp/tasmanian_ROOTParentCtrlGrp/tasmanian_ROOTCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_ROOTGrp/tasmanian_ROOTParentCtrlGrp/tasmanian_ROOTCtrlGrp/tasmanian_ROOTCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_ROOTGrp/tasmanian_ROOTParentCtrlGrp/tasmanian_ROOTCtrlGrp/tasmanian_ROOTCtrl/tasmanian_ROOTSecondaryCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_ROOTGrp/tasmanian_ROOTParentCtrlGrp/tasmanian_ROOTCtrlGrp/tasmanian_ROOTJnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_LengthCurve
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_ScaleGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_ScaleGrp/tasmanian_Spine
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_ScaleGrp/tasmanian_Spine/tasmanian_Spine_MidIKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_ScaleGrp/tasmanian_Spine/tasmanian_Spine_MidIKCtrlGrp/tasmanian_Spine_MidIKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_ScaleGrp/tasmanian_Spine/tasmanian_Spine_MidIKCtrlGrp/tasmanian_Spine_MidIKCtrl/tasmanian_Spine_LengthClstr02
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_ScaleGrp/tasmanian_Spine/tasmanian_Spine_TopIKCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_ScaleGrp/tasmanian_Spine/tasmanian_Spine_TopIKCtrlGrp/tasmanian_Spine_TopIKCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_ScaleGrp/tasmanian_Spine/tasmanian_Spine_TopIKCtrlGrp/tasmanian_Spine_TopIKCtrl/tasmanian_Spine_LengthClstr03
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_ScaleGrp/tasmanian_Spine_01CurveCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_ScaleGrp/tasmanian_Spine_01CurveCtrlGrp/tasmanian_Spine_01CurveCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_ScaleGrp/tasmanian_Spine_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_ScaleGrp/tasmanian_Spine_02CurveCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_ScaleGrp/tasmanian_Spine_02CurveCtrlGrp/tasmanian_Spine_02CurveCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_ScaleGrp/tasmanian_Spine_02Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_ScaleGrp/tasmanian_Spine_03CurveCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_ScaleGrp/tasmanian_Spine_03CurveCtrlGrp/tasmanian_Spine_03CurveCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_ScaleGrp/tasmanian_Spine_03Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_ScaleGrp/tasmanian_Spine_04CurveCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_ScaleGrp/tasmanian_Spine_04CurveCtrlGrp/tasmanian_Spine_04CurveCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_ScaleGrp/tasmanian_Spine_04Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_ScaleGrp/tasmanian_Spine_Btm01JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_ScaleGrp/tasmanian_Spine_LengthClstr01
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_ScaleGrp/tasmanian_Spine_MidJntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_ScaleGrp/tasmanian_Spine_TopJnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_SpineGrp/tasmanian_Spine_ScaleGrp/tasmanian_Spine_TopJntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_Tail_extraCurveNodesGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_Tail_extraCurveNodesGrp/tasmanian_Tail_01_SplineCurve
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_01JntFKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_01JntFKGrp2/tasmanian_Tail_01JntFKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_01JntFKGrp2/tasmanian_Tail_01JntFKGrp/tasmanian_Tail_01_01JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_01JntFKGrp2/tasmanian_Tail_01JntFKGrp/tasmanian_Tail_01_01JntFK/tasmanian_Tail_01_02JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_01JntFKGrp2/tasmanian_Tail_01JntFKGrp/tasmanian_Tail_01_01JntFK/tasmanian_Tail_01_02JntFK/tasmanian_Tail_01_03JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_01JntFKGrp2/tasmanian_Tail_01JntFKGrp/tasmanian_Tail_01_01JntFK/tasmanian_Tail_01_02JntFK/tasmanian_Tail_01_03JntFK/tasmanian_Tail_01_04JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_01JntFKGrp2/tasmanian_Tail_01JntFKGrp/tasmanian_Tail_01_01JntFK/tasmanian_Tail_01_02JntFK/tasmanian_Tail_01_03JntFK/tasmanian_Tail_01_04JntFK/tasmanian_Tail_01_05JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_01JntFKGrp2/tasmanian_Tail_01JntFKGrp/tasmanian_Tail_01_01JntFK/tasmanian_Tail_01_02JntFK/tasmanian_Tail_01_03JntFK/tasmanian_Tail_01_04JntFK/tasmanian_Tail_01_05JntFK/tasmanian_Tail_01_06JntFK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_01JntGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_01JntGrp2/tasmanian_Tail_01JntGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_01JntGrp2/tasmanian_Tail_01JntGrp/tasmanian_Tail_01_01Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_01JntGrp2/tasmanian_Tail_01JntGrp/tasmanian_Tail_01_01Jnt/tasmanian_Tail_01_02Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_01JntGrp2/tasmanian_Tail_01JntGrp/tasmanian_Tail_01_01Jnt/tasmanian_Tail_01_02Jnt/tasmanian_Tail_01_03Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_01JntGrp2/tasmanian_Tail_01JntGrp/tasmanian_Tail_01_01Jnt/tasmanian_Tail_01_02Jnt/tasmanian_Tail_01_03Jnt/tasmanian_Tail_01_04Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_01JntGrp2/tasmanian_Tail_01JntGrp/tasmanian_Tail_01_01Jnt/tasmanian_Tail_01_02Jnt/tasmanian_Tail_01_03Jnt/tasmanian_Tail_01_04Jnt/tasmanian_Tail_01_05Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_01JntGrp2/tasmanian_Tail_01JntGrp/tasmanian_Tail_01_01Jnt/tasmanian_Tail_01_02Jnt/tasmanian_Tail_01_03Jnt/tasmanian_Tail_01_04Jnt/tasmanian_Tail_01_05Jnt/tasmanian_Tail_01_06Jnt
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_01JntIKGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_01JntIKGrp2/tasmanian_Tail_01JntIKGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_01JntIKGrp2/tasmanian_Tail_01JntIKGrp/tasmanian_Tail_01_01JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_01JntIKGrp2/tasmanian_Tail_01JntIKGrp/tasmanian_Tail_01_01JntIK/tasmanian_Tail_01_02JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_01JntIKGrp2/tasmanian_Tail_01JntIKGrp/tasmanian_Tail_01_01JntIK/tasmanian_Tail_01_02JntIK/tasmanian_Tail_01_03JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_01JntIKGrp2/tasmanian_Tail_01JntIKGrp/tasmanian_Tail_01_01JntIK/tasmanian_Tail_01_02JntIK/tasmanian_Tail_01_03JntIK/tasmanian_Tail_01_04JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_01JntIKGrp2/tasmanian_Tail_01JntIKGrp/tasmanian_Tail_01_01JntIK/tasmanian_Tail_01_02JntIK/tasmanian_Tail_01_03JntIK/tasmanian_Tail_01_04JntIK/tasmanian_Tail_01_05JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_01JntIKGrp2/tasmanian_Tail_01JntIKGrp/tasmanian_Tail_01_01JntIK/tasmanian_Tail_01_02JntIK/tasmanian_Tail_01_03JntIK/tasmanian_Tail_01_04JntIK/tasmanian_Tail_01_05JntIK/tasmanian_Tail_01_06JntIK
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_curveNodesGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_curveNodesGrp/tasmanian_Tail_01_SplineCurve2Clstr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_curveNodesGrp/tasmanian_Tail_01_SplineCurve3Clstr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_curveNodesGrp/tasmanian_Tail_01_SplineCurve4Clstr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_curveNodesGrp/tasmanian_Tail_01_SplineCurve5Clstr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_curveNodesGrp/tasmanian_Tail_01_SplineCurveEndClstr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_curveNodesGrp/tasmanian_Tail_01_SplineCurveStartClstr
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_MainChainCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_MainChainCtrlGrp/tasmanian_Tail_01_01CtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_MainChainCtrlGrp/tasmanian_Tail_01_01CtrlGrp/tasmanian_Tail_01_01CtrlGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_MainChainCtrlGrp/tasmanian_Tail_01_01CtrlGrp/tasmanian_Tail_01_01CtrlGrp2/tasmanian_Tail_01_01Ctrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_MainChainCtrlGrp/tasmanian_Tail_01_01SplineCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_MainChainCtrlGrp/tasmanian_Tail_01_01SplineCtrlGrp/tasmanian_Tail_01_01SplineCtrlGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_MainChainCtrlGrp/tasmanian_Tail_01_01SplineCtrlGrp/tasmanian_Tail_01_01SplineCtrlGrp2/tasmanian_Tail_01_01SplineCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_MainChainCtrlGrp/tasmanian_Tail_01_02CtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_MainChainCtrlGrp/tasmanian_Tail_01_02CtrlGrp/tasmanian_Tail_01_02CtrlGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_MainChainCtrlGrp/tasmanian_Tail_01_02CtrlGrp/tasmanian_Tail_01_02CtrlGrp2/tasmanian_Tail_01_02Ctrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_MainChainCtrlGrp/tasmanian_Tail_01_03CtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_MainChainCtrlGrp/tasmanian_Tail_01_03CtrlGrp/tasmanian_Tail_01_03CtrlGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_MainChainCtrlGrp/tasmanian_Tail_01_03CtrlGrp/tasmanian_Tail_01_03CtrlGrp2/tasmanian_Tail_01_03Ctrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_MainChainCtrlGrp/tasmanian_Tail_01_04CtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_MainChainCtrlGrp/tasmanian_Tail_01_04CtrlGrp/tasmanian_Tail_01_04CtrlGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_MainChainCtrlGrp/tasmanian_Tail_01_04CtrlGrp/tasmanian_Tail_01_04CtrlGrp2/tasmanian_Tail_01_04Ctrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_MainChainCtrlGrp/tasmanian_Tail_01_05CtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_MainChainCtrlGrp/tasmanian_Tail_01_05CtrlGrp/tasmanian_Tail_01_05CtrlGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_MainChainCtrlGrp/tasmanian_Tail_01_05CtrlGrp/tasmanian_Tail_01_05CtrlGrp2/tasmanian_Tail_01_05Ctrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_MainChainCtrlGrp/tasmanian_Tail_01_06CtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_MainChainCtrlGrp/tasmanian_Tail_01_06CtrlGrp/tasmanian_Tail_01_06CtrlGrp2
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_MainChainCtrlGrp/tasmanian_Tail_01_06CtrlGrp/tasmanian_Tail_01_06CtrlGrp2/tasmanian_Tail_01_06Ctrl
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_MasterCtrlGrp
+        weight: 1
+      - path: tasmanian/tasmanian_MAINCtrl/tasmanian_TailGrp/tasmanian_Tail_ScaleGrp/tasmanian_Tail_MasterCtrlGrp/tasmanian_Tail_MasterCtrl
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_l_HindLeg_HipSHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_l_HindLeg_HipSHJnt/tasmanian_l_HindLeg_Knee1SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_l_HindLeg_HipSHJnt/tasmanian_l_HindLeg_Knee1SHJnt/tasmanian_l_HindLeg_Knee2SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_l_HindLeg_HipSHJnt/tasmanian_l_HindLeg_Knee1SHJnt/tasmanian_l_HindLeg_Knee2SHJnt/tasmanian_l_HindLeg_AnkleSHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_l_HindLeg_HipSHJnt/tasmanian_l_HindLeg_Knee1SHJnt/tasmanian_l_HindLeg_Knee2SHJnt/tasmanian_l_HindLeg_AnkleSHJnt/tasmanian_l_HindLeg_BallSHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_l_HindLeg_HipSHJnt/tasmanian_l_HindLeg_Knee1SHJnt/tasmanian_l_HindLeg_Knee2SHJnt/tasmanian_l_HindLeg_AnkleSHJnt/tasmanian_l_HindLeg_BallSHJnt/tasmanian_l_HindLeg_ToeSHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_l_HindLeg_HipSHJnt/tasmanian_l_HindLeg_Knee1SHJnt/tasmanian_l_HindLeg_Knee2SHJnt/tasmanian_l_HindLeg_AnkleSHJnt/tasmanian_l_HindLeg_BallSHJnt/tasmanian_l_HindLeg_ToeSHJnt/tasmanian_l_Finger_B_01_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_l_HindLeg_HipSHJnt/tasmanian_l_HindLeg_Knee1SHJnt/tasmanian_l_HindLeg_Knee2SHJnt/tasmanian_l_HindLeg_AnkleSHJnt/tasmanian_l_HindLeg_BallSHJnt/tasmanian_l_HindLeg_ToeSHJnt/tasmanian_l_Finger_B_02_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_l_HindLeg_HipSHJnt/tasmanian_l_HindLeg_Knee1SHJnt/tasmanian_l_HindLeg_Knee2SHJnt/tasmanian_l_HindLeg_AnkleSHJnt/tasmanian_l_HindLeg_BallSHJnt/tasmanian_l_HindLeg_ToeSHJnt/tasmanian_l_Finger_B_03_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_l_HindLeg_HipSHJnt/tasmanian_l_HindLeg_Knee1SHJnt/tasmanian_l_HindLeg_Knee2SHJnt/tasmanian_l_HindLeg_AnkleSHJnt/tasmanian_l_HindLeg_BallSHJnt/tasmanian_l_HindLeg_ToeSHJnt/tasmanian_l_Finger_B_04_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_l_HindLeg_HipSHJnt/tasmanian_l_HindLeg_Knee1SHJnt/tasmanian_l_HindLeg_Knee2SHJnt/tasmanian_l_HindLeg_AnkleSHJnt/tasmanian_l_HindLeg_BallSHJnt/tasmanian_l_HindLeg_ToeSHJnt/tasmanian_l_Finger_B_05_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_r_HindLeg_HipSHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_r_HindLeg_HipSHJnt/tasmanian_r_HindLeg_Knee1SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_r_HindLeg_HipSHJnt/tasmanian_r_HindLeg_Knee1SHJnt/tasmanian_r_HindLeg_Knee2SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_r_HindLeg_HipSHJnt/tasmanian_r_HindLeg_Knee1SHJnt/tasmanian_r_HindLeg_Knee2SHJnt/tasmanian_r_HindLeg_AnkleSHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_r_HindLeg_HipSHJnt/tasmanian_r_HindLeg_Knee1SHJnt/tasmanian_r_HindLeg_Knee2SHJnt/tasmanian_r_HindLeg_AnkleSHJnt/tasmanian_r_HindLeg_BallSHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_r_HindLeg_HipSHJnt/tasmanian_r_HindLeg_Knee1SHJnt/tasmanian_r_HindLeg_Knee2SHJnt/tasmanian_r_HindLeg_AnkleSHJnt/tasmanian_r_HindLeg_BallSHJnt/tasmanian_r_HindLeg_ToeSHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_r_HindLeg_HipSHJnt/tasmanian_r_HindLeg_Knee1SHJnt/tasmanian_r_HindLeg_Knee2SHJnt/tasmanian_r_HindLeg_AnkleSHJnt/tasmanian_r_HindLeg_BallSHJnt/tasmanian_r_HindLeg_ToeSHJnt/tasmanian_r_Finger_B_01_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_r_HindLeg_HipSHJnt/tasmanian_r_HindLeg_Knee1SHJnt/tasmanian_r_HindLeg_Knee2SHJnt/tasmanian_r_HindLeg_AnkleSHJnt/tasmanian_r_HindLeg_BallSHJnt/tasmanian_r_HindLeg_ToeSHJnt/tasmanian_r_Finger_B_02_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_r_HindLeg_HipSHJnt/tasmanian_r_HindLeg_Knee1SHJnt/tasmanian_r_HindLeg_Knee2SHJnt/tasmanian_r_HindLeg_AnkleSHJnt/tasmanian_r_HindLeg_BallSHJnt/tasmanian_r_HindLeg_ToeSHJnt/tasmanian_r_Finger_B_03_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_r_HindLeg_HipSHJnt/tasmanian_r_HindLeg_Knee1SHJnt/tasmanian_r_HindLeg_Knee2SHJnt/tasmanian_r_HindLeg_AnkleSHJnt/tasmanian_r_HindLeg_BallSHJnt/tasmanian_r_HindLeg_ToeSHJnt/tasmanian_r_Finger_B_04_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_r_HindLeg_HipSHJnt/tasmanian_r_HindLeg_Knee1SHJnt/tasmanian_r_HindLeg_Knee2SHJnt/tasmanian_r_HindLeg_AnkleSHJnt/tasmanian_r_HindLeg_BallSHJnt/tasmanian_r_HindLeg_ToeSHJnt/tasmanian_r_Finger_B_05_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_l_Clavicle_01_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_l_Clavicle_01_01SHJnt/tasmanian_l_FrontLeg_HipSHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_l_Clavicle_01_01SHJnt/tasmanian_l_FrontLeg_HipSHJnt/tasmanian_l_FrontLeg_KneeSHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_l_Clavicle_01_01SHJnt/tasmanian_l_FrontLeg_HipSHJnt/tasmanian_l_FrontLeg_KneeSHJnt/tasmanian_l_FrontLeg_AnkleSHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_l_Clavicle_01_01SHJnt/tasmanian_l_FrontLeg_HipSHJnt/tasmanian_l_FrontLeg_KneeSHJnt/tasmanian_l_FrontLeg_AnkleSHJnt/tasmanian_l_FrontLeg_BallSHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_l_Clavicle_01_01SHJnt/tasmanian_l_FrontLeg_HipSHJnt/tasmanian_l_FrontLeg_KneeSHJnt/tasmanian_l_FrontLeg_AnkleSHJnt/tasmanian_l_FrontLeg_BallSHJnt/tasmanian_l_FrontLeg_ToeSHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_l_Clavicle_01_01SHJnt/tasmanian_l_FrontLeg_HipSHJnt/tasmanian_l_FrontLeg_KneeSHJnt/tasmanian_l_FrontLeg_AnkleSHJnt/tasmanian_l_FrontLeg_BallSHJnt/tasmanian_l_FrontLeg_ToeSHJnt/tasmanian_l_Finger_A_01_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_l_Clavicle_01_01SHJnt/tasmanian_l_FrontLeg_HipSHJnt/tasmanian_l_FrontLeg_KneeSHJnt/tasmanian_l_FrontLeg_AnkleSHJnt/tasmanian_l_FrontLeg_BallSHJnt/tasmanian_l_FrontLeg_ToeSHJnt/tasmanian_l_Finger_A_02_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_l_Clavicle_01_01SHJnt/tasmanian_l_FrontLeg_HipSHJnt/tasmanian_l_FrontLeg_KneeSHJnt/tasmanian_l_FrontLeg_AnkleSHJnt/tasmanian_l_FrontLeg_BallSHJnt/tasmanian_l_FrontLeg_ToeSHJnt/tasmanian_l_Finger_A_03_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_l_Clavicle_01_01SHJnt/tasmanian_l_FrontLeg_HipSHJnt/tasmanian_l_FrontLeg_KneeSHJnt/tasmanian_l_FrontLeg_AnkleSHJnt/tasmanian_l_FrontLeg_BallSHJnt/tasmanian_l_FrontLeg_ToeSHJnt/tasmanian_l_Finger_A_04_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_l_Clavicle_01_01SHJnt/tasmanian_l_FrontLeg_HipSHJnt/tasmanian_l_FrontLeg_KneeSHJnt/tasmanian_l_FrontLeg_AnkleSHJnt/tasmanian_l_FrontLeg_BallSHJnt/tasmanian_l_FrontLeg_ToeSHJnt/tasmanian_l_Finger_A_05_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_Neck_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_Neck_01SHJnt/tasmanian_Neck_02SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_Neck_01SHJnt/tasmanian_Neck_02SHJnt/tasmanian_Neck_TopSHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_Neck_01SHJnt/tasmanian_Neck_02SHJnt/tasmanian_Neck_TopSHJnt/tasmanian_Head_JawSHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_Neck_01SHJnt/tasmanian_Neck_02SHJnt/tasmanian_Neck_TopSHJnt/tasmanian_Head_JawSHJnt/tasmanian_Head_JawEndSHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_Neck_01SHJnt/tasmanian_Neck_02SHJnt/tasmanian_Neck_TopSHJnt/tasmanian_Head_TopSHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_Neck_01SHJnt/tasmanian_Neck_02SHJnt/tasmanian_Neck_TopSHJnt/tasmanian_Head_TopSHJnt/tasmanian_l_Eye_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_Neck_01SHJnt/tasmanian_Neck_02SHJnt/tasmanian_Neck_TopSHJnt/tasmanian_Head_TopSHJnt/tasmanian_r_Eye_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_r_Clavicle_01_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_r_Clavicle_01_01SHJnt/tasmanian_r_FrontLeg_HipSHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_r_Clavicle_01_01SHJnt/tasmanian_r_FrontLeg_HipSHJnt/tasmanian_r_FrontLeg_KneeSHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_r_Clavicle_01_01SHJnt/tasmanian_r_FrontLeg_HipSHJnt/tasmanian_r_FrontLeg_KneeSHJnt/tasmanian_r_FrontLeg_AnkleSHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_r_Clavicle_01_01SHJnt/tasmanian_r_FrontLeg_HipSHJnt/tasmanian_r_FrontLeg_KneeSHJnt/tasmanian_r_FrontLeg_AnkleSHJnt/tasmanian_r_FrontLeg_BallSHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_r_Clavicle_01_01SHJnt/tasmanian_r_FrontLeg_HipSHJnt/tasmanian_r_FrontLeg_KneeSHJnt/tasmanian_r_FrontLeg_AnkleSHJnt/tasmanian_r_FrontLeg_BallSHJnt/tasmanian_r_FrontLeg_ToeSHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_r_Clavicle_01_01SHJnt/tasmanian_r_FrontLeg_HipSHJnt/tasmanian_r_FrontLeg_KneeSHJnt/tasmanian_r_FrontLeg_AnkleSHJnt/tasmanian_r_FrontLeg_BallSHJnt/tasmanian_r_FrontLeg_ToeSHJnt/tasmanian_r_Finger_A_01_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_r_Clavicle_01_01SHJnt/tasmanian_r_FrontLeg_HipSHJnt/tasmanian_r_FrontLeg_KneeSHJnt/tasmanian_r_FrontLeg_AnkleSHJnt/tasmanian_r_FrontLeg_BallSHJnt/tasmanian_r_FrontLeg_ToeSHJnt/tasmanian_r_Finger_A_02_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_r_Clavicle_01_01SHJnt/tasmanian_r_FrontLeg_HipSHJnt/tasmanian_r_FrontLeg_KneeSHJnt/tasmanian_r_FrontLeg_AnkleSHJnt/tasmanian_r_FrontLeg_BallSHJnt/tasmanian_r_FrontLeg_ToeSHJnt/tasmanian_r_Finger_A_03_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_r_Clavicle_01_01SHJnt/tasmanian_r_FrontLeg_HipSHJnt/tasmanian_r_FrontLeg_KneeSHJnt/tasmanian_r_FrontLeg_AnkleSHJnt/tasmanian_r_FrontLeg_BallSHJnt/tasmanian_r_FrontLeg_ToeSHJnt/tasmanian_r_Finger_A_04_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Spine_01SHJnt/tasmanian_Spine_02SHJnt/tasmanian_Spine_03SHJnt/tasmanian_Spine_04SHJnt/tasmanian_Spine_TopSHJnt/tasmanian_r_Clavicle_01_01SHJnt/tasmanian_r_FrontLeg_HipSHJnt/tasmanian_r_FrontLeg_KneeSHJnt/tasmanian_r_FrontLeg_AnkleSHJnt/tasmanian_r_FrontLeg_BallSHJnt/tasmanian_r_FrontLeg_ToeSHJnt/tasmanian_r_Finger_A_05_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Tail_01_01SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Tail_01_01SHJnt/tasmanian_Tail_01_02SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Tail_01_01SHJnt/tasmanian_Tail_01_02SHJnt/tasmanian_Tail_01_03SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Tail_01_01SHJnt/tasmanian_Tail_01_02SHJnt/tasmanian_Tail_01_03SHJnt/tasmanian_Tail_01_04SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Tail_01_01SHJnt/tasmanian_Tail_01_02SHJnt/tasmanian_Tail_01_03SHJnt/tasmanian_Tail_01_04SHJnt/tasmanian_Tail_01_05SHJnt
+        weight: 1
+      - path: tasmanian/tasmanian_SHJntGrp/tasmanian_MAINSHJnt/tasmanian_ROOTSHJnt/tasmanian_Tail_01_01SHJnt/tasmanian_Tail_01_02SHJnt/tasmanian_Tail_01_03SHJnt/tasmanian_Tail_01_04SHJnt/tasmanian_Tail_01_05SHJnt/tasmanian_Tail_01_06SHJnt
+        weight: 1
+      - path: Tasmanian_Devil_ZR5G
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

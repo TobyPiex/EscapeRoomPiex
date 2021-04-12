@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.Events;
 using Gvr.Internal;
+using Ludiq;
+using Bolt;
 
  /// <summary>The Escape Room Package - PIEX official code.</summary>
 namespace EscapeRoom
@@ -99,12 +102,23 @@ namespace EscapeRoom
         public virtual bool PointerHover { get; set; }
         public virtual Vector3 initPosition { get; set; }
 
-        public Outline thisOutline;
+        public Outline thisOutline { get; set; }
+        public PointerEventData eData { get; set; }
+        public Transform hand { get; set; }
 
         public void Awake() 
         {
             FreeHand = true;
             controllerDevice = GvrControllerInput.GetDevice(GvrControllerHand.Dominant);
+        }
+
+        public void Start() 
+        {    
+            initPosition = this.transform.position;
+            IsHeld = false;
+            DistanceFromHand = -1;
+            thisOutline = this.GetComponent<Outline>();
+            thisOutline.enabled = false;
         }
 
         private void LateUpdate() 
@@ -117,23 +131,78 @@ namespace EscapeRoom
         {
             if(FreeHand)
             {
-                Debug.Log("PointerClicked!");
-                if(this.IsHeld)
-                    PutDown();
-                else
+                if(!this.IsHeld)
                     PickUp();
-            }
-            else
-            {
-                PutDown();
             }
         }
 
-        public virtual void OnGvrPointerHover(PointerEventData eventData) {}
+        public virtual void OnGvrPointerHover(PointerEventData eventData) 
+        {
+            PointerHover = true;
+            thisOutline.enabled = true;
+            eData = eventData;
+        }
 
-        public virtual void PickUp() {}
+        public virtual void PickUp() 
+        {
+            Debug.Log(this.name + " was picked up.");
+            CustomEvent.Trigger(this.gameObject, "PickUpEvent");
+            DistanceFromHand = Vector3.Distance(this.transform.position, Controller.transform.position) / 2;
+            IsHeld = true;
+            FreeHand = false;
+            ObjectHeld = this.gameObject;
+            this.GetComponent<Collider>().enabled = false;
+            this.GetComponent<Rigidbody>().useGravity = false;
+            gameObject.layer = 2;
+        }
 
-        public virtual void PutDown() {}
+        public virtual void PutDown() 
+        {
+            Debug.Log(this.name + " was put down.");
+            IsHeld = false;
+            FreeHand = true;
+            ObjectHeld = null;
+            DistanceFromHand = -1;
+            this.GetComponent<Collider>().enabled = true;
+            this.GetComponent<Rigidbody>().useGravity = true;
+            gameObject.layer = 0;
+        }
+
+        public virtual void Update()
+        {
+            if(hand == null && GameObject.Find("GvrControllerPointer") != null) 
+                hand = GameObject.Find("GvrControllerPointer").transform;
+            
+            if(IsHeld)
+            { 
+
+                transform.localPosition =  (Controller.transform.transform.position + (Controller.transform.forward * 10) );//GvrControllerInput.GetDevice(GvrControllerHand.Dominant).
+                transform.rotation = GvrControllerInput.GetDevice(GvrControllerHand.Dominant).Orientation;
+                
+                if(controllerDevice.GetButtonDown(GvrControllerButton.TouchPadButton))
+                {
+                    //PutDown();
+                }            
+                if(controllerDevice.GetButtonDown(GvrControllerButton.App))
+                {
+                    PutDown();
+                }
+            }
+
+            if(eData != null
+                && !eData.hovered.Contains(this.gameObject))
+                {
+                    thisOutline.enabled = false;
+                }
+            
+
+
+            if(transform.position.y <= -200) 
+            {
+                transform.position = initPosition;
+                this.GetComponent<Rigidbody>().velocity = Vector3.zero;
+            }
+        }
     }
 
     ///Puzzles.
@@ -142,10 +211,12 @@ namespace EscapeRoom
     {
         public GameObject answer { get; set; }
         public bool solved { get; set; }
+        public GameObject puzzleManager { get; set; }
         public GameObject puzzleLock;
 
-        public KeyLockPuzzle(GameObject _key, GameObject _lock)
+        public KeyLockPuzzle(GameObject _pManager, GameObject _key, GameObject _lock)
         {
+            puzzleManager = _pManager;
             answer = _key;
             puzzleLock = _lock;
             solved = false;
@@ -172,9 +243,10 @@ namespace EscapeRoom
         //Calls this function when the puzzle is solved.
         public void Solve() 
         {
-            answer.GetComponent<Key>().PutDown();
-            //This puzzle is solved.
             solved = true;
+            answer.GetComponent<Key>().PutDown();
+            CustomEvent.Trigger(puzzleManager, "SolvedEvent");
+            //This puzzle is solved.
         }
     }
 
@@ -185,14 +257,34 @@ namespace EscapeRoom
         public bool solved { get; set; }
         public int answerLength { get; set; }
         public SequenceBoard thisBoard { get; set; }
+        public GameObject puzzleController { get; set; }
+        public List<Symbol> allSymbols { get; set; }
+        public GameObject puzzleManager { get; set; }
 
-        public MatchingPuzzle(SymbolSet _symbolSet, GameObject _board)
+        public MatchingPuzzle(GameObject _pManager, SymbolSet _symbolSet, GameObject _board, GameObject _pController)
         {
+            puzzleManager = _pManager;
             curInput = new List<Symbol>();
             answer = _symbolSet.answerSymbols;
+            allSymbols = _symbolSet.allSymbols;
             solved = false;
             thisBoard = _board.GetComponent<SequenceBoard>();
             answerLength = answer.Count;
+            puzzleController = _pController;
+
+            SetupPuzzle();
+        }
+
+        public MatchingPuzzle(GameObject _pManager, SymbolSet _symbolSet, GameObject _board)
+        {
+            puzzleManager = _pManager;
+            curInput = new List<Symbol>();
+            answer = _symbolSet.answerSymbols;
+            allSymbols = _symbolSet.allSymbols;
+            solved = false;
+            thisBoard = _board.GetComponent<SequenceBoard>();
+            answerLength = answer.Count;
+            puzzleController = null;
 
             SetupPuzzle();
         }
@@ -205,7 +297,7 @@ namespace EscapeRoom
                 s.thisPuzzle = this;
                 s.thisSymbol = s;
             }
-            Debug.Log("Done");
+            thisBoard.thisPuzzle = this;
         }
 
         public void SubmitAnswer()
@@ -215,7 +307,11 @@ namespace EscapeRoom
                 if(curInput[i] != answer[i])
                 {
                     curInput = new List<Symbol>();
-                    thisBoard.DrawCurrentInput(curInput);
+                    
+                    if(thisBoard.GetComponent<AudioSource>() != null)
+                        thisBoard.GetComponent<AudioSource>().Play(0);
+                    
+                    thisBoard.Reset();
                     return;
                 }
             }
@@ -225,6 +321,7 @@ namespace EscapeRoom
         //Calls this function when the puzzle is solved.
         public void Solve() 
         {
+            CustomEvent.Trigger(puzzleManager, "SolvedEvent"); 
             //This puzzle is solved.
             Debug.Log("Puzzle Solved!");
             solved = true;
